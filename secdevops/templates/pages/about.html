@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static wagtailcore_tags wagtailimages_tags blogapp_tags el_pagination_tags wagtailmd %}
+
+{% block content %}
+
+<div class="container">
+
+<section class="bg-near-black helvetica white ph4-l pa3">
+  <header class="vh-90 mauto max-width-extra-large ph4-l ph0-ns pv4">
+    <div class="dtc">
+      <div class="justify-center flex flex-row-l flex-column items-center">
+        <img src="images/avatar.jpg" class="pointer mw6-l mw5 pr4-l br-100" onmouseover="hover(this);" onmouseout="unhover(this);">
+        <div class="ph4-l ph3">
+          <h2 class="f2-l f3 lh-title mt0" id="hey">Hey,<a class="anchorjs-link " href="#hey" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em/1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+          <h1 class="f2-l f3 lh-title fade-in fade-in-delay-short">
+            I’m <span class="cursor-rock tracked-light gold">Amine</span>, <span
+              class="cursor-unicorn" id="job-name"
+              data-typist="Software Engineer, Cybersecurity Profossional,
+              Engineer,Full Stack Engineer">a
+              millennial doing stuff on the Internet</span>
+            <!-- working at <a target="blank" href="https://www.research.ibm.com" class="cursor&#45;work link link&#45;underline white link&#45;job" data&#45;visited="true">IBM</a>. -->
+          </h1>
+
+          <div class="cursor-age cf fade-in fade-in-delay-short">
+            <!-- <dl class="fl fn&#45;l w&#45;50 dib&#45;l w&#45;auto&#45;l lh&#45;title mr5&#45;l grow"> -->
+            <!--   <dd class="f6 fw3 ml0">Age</dd> -->
+            <!--   <dd class="f3 ml0">26</dd> -->
+            <!-- </dl> -->
+            <!-- <dl class="cursor&#45;location fl fn&#45;l w&#45;50 dib&#45;l w&#45;auto&#45;l lh&#45;title mr5&#45;l grow"> -->
+            <!--   <dd class="f6 fw3 ml0">From</dd> -->
+            <!--   <dd class="f3 ml0">Murcia, Spain</dd> -->
+            <!-- </dl> -->
+            <!-- <dl class="cursor&#45;code fl fn&#45;l w&#45;50 dib&#45;l w&#45;auto&#45;l lh&#45;title mr5&#45;l grow"> -->
+            <!--   <dd class="f6 fw3 ml0">Language</dd> -->
+            <!--   <dd class="f3 ml0">JavaScript</dd> -->
+            <!-- </dl> -->
+            <!-- <dl class="cursor&#45;windsurf fl fn&#45;l w&#45;50 dib&#45;l w&#45;auto&#45;l lh&#45;title mr5&#45;l grow"> -->
+            <!--   <dd class="f6 fw3 ml0">Favorite Sport</dd> -->
+            <!--   <dd class="f3 ml0">Windsurfing</dd> -->
+            <!-- </dl> -->
+          </div>
+
+          <div class="pt4 fade-in fade-in-delay-large">
+            <a target="blank" href="https://twitter.com/Kikobeats" title="Twitter" class="f6 dib pr2 gray dim">Twitter</a>
+<a target="blank" href="https://github.com/Kikobeats" title="GitHub" class="f6 dib pr2 gray dim">GitHub</a>
+<a target="blank" href="https://www.linkedin.com/in/kikobeats" title="LinkedIn" class="f6 dib pr2 gray dim">LinkedIn</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</section>
+
+
+</div>
+
+{% endblock content %}

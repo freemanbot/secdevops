@@ -1,0 +1,8 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=secdevops
+POSTGRES_USER=eMiPjCYvLhAHEaeJvJGPoHBuqbAWVrfu
+POSTGRES_PASSWORD=3k15OEyqc6SBCJd2uieU6OjlXH3XG1HrTBw0TEUA7apYnoB6CHHuKKtDwrrcB609
+DATABASE_URL=postgres://postgres:changeme@127.0.0.1:5432/secdevops

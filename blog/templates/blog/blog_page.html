@@ -1,0 +1,65 @@
+{% extends "blog/blog_base.html" %}
+
+{% load static wagtailcore_tags wagtailimages_tags blogapp_tags el_pagination_tags wagtailmd %}
+
+{% block content %}
+
+<div class="container">
+
+    <section class="content">
+        <h1 style="text-align: center;" id="posts-headline">Writings.</h1>
+
+
+        {% if search_term %}
+        <header class="page-header">
+            <h1 class="page-title">Search Results for <span>{{ search_type }}: {{ search_term }}</span></h1>
+        </header>
+        {% endif %}
+
+        {% paginate 5 posts %}
+        {% for post in posts %}
+        <!-- Blog Post -->
+
+        <div class="card mb-3">
+            <!-- {% if post.header_image %} -->
+            <!--     {% image post.header_image original as header_image %} -->
+            <!--     <a href="{% post_date_url post blog_page %}"> -->
+                <!--       <img style="height: 200px; width: 100%; display: block;" -->
+                <!--            src="{{ header_image.url }}" class="card&#45;img&#45;top"> -->
+                <!--     </a> -->
+            <!-- {% endif %} -->
+            <div class="card-body">
+                <h3 class="card-title">
+                    <a href="{% post_date_url post blog_page %}">{{ post.title }}</a>
+                </h2>
+                <p class="card-text">
+                    {% if post.excerpt %}
+                    {{ post.excerpt|markdown|safe }}
+                    {% else %}
+                    {{ post.body|markdown|safe|truncatewords_html:70 }}
+                    {% endif %}
+                </p>
+                <a href="{% post_date_url post blog_page %}" class="posts older btn">
+                  Read More &rarr;
+                </a>
+
+            </div>
+            <div class="card-footer text-muted">
+                Posted on {{ post.date }}
+            </div>
+        </div>
+
+      {% endfor %}
+
+    </section>
+
+</div>
+
+
+
+<!-- Pagination -->
+<ul class="pagination justify-content-center mb-4">
+    {% show_pages %}
+</ul>
+
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static wagtailcore_tags wagtailimages_tags blogapp_tags el_pagination_tags wagtailmd %}
+
+{% block content %}
+
+<div class="container">
+
+<section class="content">
+<h1 style="text-align: center;" id="posts-headline">Recent Writings.</h1>
+
+  {% recent_posts 5 %}
+
+  <li>
+    <a href="/programatically-spawn-kubernetes-resources-from-python/" title="Read more about 'Programatically spawn kubernetes resources from Python'">Programatically spawn kubernetes resources from Python</a>
+    <time datetime="14 Nov 2018">47 days ago</time>
+    <span class="post tags"><a href="/tag/it/">IT</a> <a href="/tag/contribution/">contribution</a></span>
+  </li>
+
+
+  <nav class="pagination">
+    <!-- <span class="posts index">Page 1 of 4</span> -->
+    <a rel="prev" class="posts older btn small" href="/blog/">All Posts →</a>
+  </nav>
+
+
+      </section>
+
+</div>
+
+{% endblock content %}
+
+

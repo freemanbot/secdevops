@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static wagtailcore_tags wagtailimages_tags wagtailuserbar blogapp_tags el_pagination_tags menu_tags wagtailmd %}
+
+
+{% block content %}
+    {% wagtailuserbar %}
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      {% main_menu template="menu/main_menu.html" %}
+    </div>
+
+    {% block maincontent %}
+
+    {% endblock %}
+
+    {% include 'blog/components/sidebar.html' %}
+
+HELLO
+{% endblock %}
+
