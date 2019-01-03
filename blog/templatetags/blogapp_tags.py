@@ -24,6 +24,14 @@ def post_date_url(post, blog_page):
     )
     return url
 
+@register.simple_tag()
+def post_list(context, limit=None):
+    posts = PostPage.objects.all()
+    if limit:
+        posts = posts[:limit]
+    #return {'blog_page': blog_page, 'request': context['request'], 'posts': posts}
+    return posts
+
 @register.inclusion_tag('blog/components/recent_posts.html', takes_context=True)
 def recent_posts(context, limit=None):
     # blog_page = context['blog_page']

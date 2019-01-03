@@ -1,0 +1,84 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f ../local.yml
+    kompose.version: 1.17.0 (a74acad)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: django
+  name: django
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: django
+    spec:
+      containers:
+      - args:
+        - /start
+        env:
+        - name: DATABASE_URL
+          valueFrom:
+            configMapKeyRef:
+              key: DATABASE_URL
+              name: django-envs--local--postgres
+        - name: IPYTHONDIR
+          valueFrom:
+            configMapKeyRef:
+              key: IPYTHONDIR
+              name: django-envs--local--django
+        - name: POSTGRES_DB
+          valueFrom:
+            configMapKeyRef:
+              key: POSTGRES_DB
+              name: django-envs--local--postgres
+        - name: POSTGRES_HOST
+          valueFrom:
+            configMapKeyRef:
+              key: POSTGRES_HOST
+              name: django-envs--local--postgres
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            configMapKeyRef:
+              key: POSTGRES_PASSWORD
+              name: django-envs--local--postgres
+        - name: POSTGRES_PORT
+          valueFrom:
+            configMapKeyRef:
+              key: POSTGRES_PORT
+              name: django-envs--local--postgres
+        - name: POSTGRES_USER
+          valueFrom:
+            configMapKeyRef:
+              key: POSTGRES_USER
+              name: django-envs--local--postgres
+        - name: REDIS_URL
+          valueFrom:
+            configMapKeyRef:
+              key: REDIS_URL
+              name: django-envs--local--django
+        - name: USE_DOCKER
+          valueFrom:
+            configMapKeyRef:
+              key: USE_DOCKER
+              name: django-envs--local--django
+        image: secdevops_local_django
+        imagePullPolicy: Never
+        name: django
+        ports:
+        - containerPort: 8000
+        resources: {}
+        volumeMounts:
+        - mountPath: /app
+          name: django-claim0
+      restartPolicy: Always
+      volumes:
+      - name: django-claim0
+        persistentVolumeClaim:
+          claimName: django-claim0
+status: {}

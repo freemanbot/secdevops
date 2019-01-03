@@ -1,0 +1,2131 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "wagtailcore",
+    "model": "page"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "wagtailimages",
+    "model": "image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "wagtailadmin",
+    "model": "admin"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "wagtaildocs",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "account",
+    "model": "emailaddress"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "account",
+    "model": "emailconfirmation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialaccount"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialapp"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialtoken"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "wagtailforms",
+    "model": "formsubmission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "wagtailredirects",
+    "model": "redirect"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "wagtailembeds",
+    "model": "embed"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "wagtailusers",
+    "model": "userprofile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "wagtailimages",
+    "model": "rendition"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "wagtailsearch",
+    "model": "query"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "wagtailsearch",
+    "model": "querydailyhits"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 23,
+  "fields": {
+    "app_label": "wagtailcore",
+    "model": "grouppagepermission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 24,
+  "fields": {
+    "app_label": "wagtailcore",
+    "model": "pagerevision"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 25,
+  "fields": {
+    "app_label": "wagtailcore",
+    "model": "pageviewrestriction"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 26,
+  "fields": {
+    "app_label": "wagtailcore",
+    "model": "site"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 27,
+  "fields": {
+    "app_label": "wagtailcore",
+    "model": "collection"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 28,
+  "fields": {
+    "app_label": "wagtailcore",
+    "model": "groupcollectionpermission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 29,
+  "fields": {
+    "app_label": "wagtailcore",
+    "model": "collectionviewrestriction"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 30,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 31,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 32,
+  "fields": {
+    "app_label": "wagtailmenus",
+    "model": "flatmenu"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 33,
+  "fields": {
+    "app_label": "wagtailmenus",
+    "model": "flatmenuitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 34,
+  "fields": {
+    "app_label": "wagtailmenus",
+    "model": "mainmenu"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 35,
+  "fields": {
+    "app_label": "wagtailmenus",
+    "model": "mainmenuitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 36,
+  "fields": {
+    "app_label": "users",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 37,
+  "fields": {
+    "app_label": "blog",
+    "model": "blogcategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 38,
+  "fields": {
+    "app_label": "blog",
+    "model": "blogpage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 39,
+  "fields": {
+    "app_label": "blog",
+    "model": "blogpagetag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 40,
+  "fields": {
+    "app_label": "blog",
+    "model": "landingpage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 41,
+  "fields": {
+    "app_label": "blog",
+    "model": "postpage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 42,
+  "fields": {
+    "app_label": "blog",
+    "model": "formfield"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 43,
+  "fields": {
+    "app_label": "blog",
+    "model": "formpage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 44,
+  "fields": {
+    "app_label": "blog",
+    "model": "tag"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "c89j1kocmizrd2lw5jkzr5vfl79v3yji",
+  "fields": {
+    "session_data": "MWFmMmVmMzlmMDhmYzNiYzRhZDA5ZTY4ODhjYjIxZDM4YjY4NzM0Mzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5YTgwODVlODRhOThlNmUxMDc4ODgxOTdhMjEzODc5ZmQ5ZTczMDRkIiwid2FndGFpbC1wcmV2aWV3LTQiOlsiY3NyZm1pZGRsZXdhcmV0b2tlbj0yN3YxdmI1NzhtVEhMTkxtOU0xWFlmV0ZDSmZYVWFlWlRXZ1JjYW5zNTQ4R1VBUnNpOU1neURjRGg4TUMyRjFnJm5leHQ9JnRpdGxlPUZpcnN0K2Jsb2crcG9zdCZoZWFkZXJfaW1hZ2U9MSZib2R5PSUzRCtTdGVwKzElM0ErSW5zdGFsbGF0aW9uKyUyNitHZXR0aW5nK1N0YXJ0ZWQlMEQlMEFCdXJyK1N1dHRlcislM0NidXJyc3V0ZXIlNDBnbWFpbC5jb20lM0UlMEQlMEElMEQlMEFpZm5kZWYlM0ElM0Fjb2RlZGlyJTVCJTNBY29kZWRpciUzQStjb2RlJTVEJTBEJTBBaWZuZGVmJTNBJTNBaW1hZ2VzZGlyJTVCJTNBaW1hZ2VzZGlyJTNBK2ltYWdlcyU1RCUwRCUwQSUwRCUwQUNyZWF0ZSthbmQrY2hhbmdlK2ludG8rYStkaXJlY3Rvcnkrd2hlcmUreW91K3dvdWxkK2xpa2UrdG8rd29yay4lMEQlMEElMEQlMEElM0QlM0QrU2V0dXAlMEQlMEElMEQlMEFPcGVuU2hpZnQraXMrUmVkK0hhdCUyN3MrZGlzdHJpYnV0aW9uK29mK0t1YmVybmV0ZXMrJTBEJTBBJTBEJTBBbWluaWt1YmUrYW5kK21pbmlzaGlmdCthcmUrZXNzZW50aWFsbHkrZXF1aXZhbGVudCthbmQrd2lsbCtiZSt1c2VkK2Zvcit0aGUrZGVtb25zdHJhdGlvbnMlMkZleGFtcGxlcytiZWxvdy4lMEQlMEElMEQlMEFUaGVzZStpbnN0cnVjdGlvbnMrYXJlK3ByaW1hcmlseStmb3IrTGludXgrJTI2K01hY09TLisrQXQrc29tZStwb2ludCUyQytJK2RvK2hvcGUrdG8rZmluZCt0aGUrdGltZSt0cmFuc2xhdGUrdGhlbSt0bytXaW5kb3dzK1Bvd2VyU2hlbGwuKyslMEQlMEFUaGVzZStpbnN0cnVjdGlvbnMraGF2ZStOT1QrYmVlbit0ZXN0ZWQrd2VsbCtvbitXaW5kb3dzK0Jhc2guJTBEJTBBJTBEJTBBJTNEJTNEJTNEK1ByZXJlcXVpc2l0ZXMlMEQlMEElMkErRG9ja2VyK2ZvcitNYWMlMkZXaW5kb3dzJTBEJTBBJTJBK2Jhc2grc2hlbGwlMEQlMEElMkErZ2l0JTBEJTBBJTJBK0pESyslMEQlMEElMkErQXBhY2hlK01hdmVuKyUyOGNvbXBpbGF0aW9uK29mK0phdmErcHJvamVjdHMlMjklMEQlMEElMkErY3VybCUyQyt0YXIlMEQlMEElMkErSG9tZWJyZXcrZm9yK01hYystKyUyMmJyZXcraW5zdGFsbCtzdGVybiUyMiUwRCUwQSUyQSttaW5pa3ViZSthbmQlMkZvcittaW5pc2hpZnQrd2lsbCtiZStkb3dubG9hZGVkK2JlbG93JTBEJTBBJTJBK2t1YmVjdGwrYW5kJTJGb3Irb2Mrd2lsbCtiZStkb3dubG9hZGVkK2JlbG93JTBEJTBBJTBEJTBBJTNEJTNEJTNEK0Rvd25sb2FkcyUwRCUwQURvd25sb2FkKyUyNitJbnN0YWxsK0t1YmVybmV0ZXMrQ0xJJTBEJTBBJTVCc291cmNlJTJDYmFzaCU1RCUwRCUwQS0tLS0lMEQlMEElMjMrTWFjT1MlMEQlMEElMjQrY3VybCstTE8raHR0cHMlM0ElMkYlMkZzdG9yYWdlLmdvb2dsZWFwaXMuY29tJTJGa3ViZXJuZXRlcy1yZWxlYXNlJTJGcmVsZWFzZSUyRnYxLjEyLjAlMkZiaW4lMkZkYXJ3aW4lMkZhbWQ2NCUyRmt1YmVjdGwrJTBEJTBBJTIzKyUwRCUwQSUyNCtjaG1vZCslMkJ4K2t1YmVjdGwlMEQlMEElMjMrb3IlMEQlMEElMjQrYnJldytpbnN0YWxsK2t1YmVybmV0ZXMtY2xpJTBEJTBBLS0tLSUwRCUwQUxpbnV4KyUyNitXaW5kb3dzK2luc3RydWN0aW9ucytmb3IrZmluZGluZythbmQrZG93bmxvYWRpbmcrdGhlK2Era3ViZWN0bCslMEQlMEFodHRwcyUzQSUyRiUyRmt1YmVybmV0ZXMuaW8lMkZkb2NzJTJGdGFza3MlMkZ0b29scyUyRmluc3RhbGwta3ViZWN0bCUyRiUyM2luc3RhbGwta3ViZWN0bCUwRCUwQSUwRCUwQURvd25sb2FkKyUyNitJbnN0YWxsK01pbmlrdWJlK0NsdXN0ZXIlMEQlMEElNUJzb3VyY2UlMkNiYXNoJTVEJTBEJTBBLS0tLSUwRCUwQSUyNCtjdXJsKy1MbyttaW5pa3ViZStodHRwcyUzQSUyRiUyRnN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20lMkZtaW5pa3ViZSUyRnJlbGVhc2VzJTJGdjAuMjkuMCUyRm1pbmlrdWJlLWRhcndpbi1hbWQ2NCUwRCUwQSUyNCtjaG1vZCslMkJ4K21pbmlrdWJlKyUwRCUwQSUyMytvciUwRCUwQSUyNCticmV3K2Nhc2sraW5zdGFsbCttaW5pa3ViZSUwRCUwQSUyMytpZit5b3UrZG9uJTI3dCtoYXZlK1ZpcnR1YWxCb3graW5zdGFsbGVkJTBEJTBBJTI0K2JyZXcrY2FzaytpbnN0YWxsK3ZpcnR1YWxib3glMEQlMEEtLS0tJTBEJTBBTW9yZStNaW5pa3ViZStyZWxlYXNlcytodHRwcyUzQSUyRiUyRmdpdGh1Yi5jb20lMkZrdWJlcm5ldGVzJTJGbWluaWt1YmUlMkZyZWxlYXNlcyUwRCUwQSUwRCUwQU9SJTBEJTBBJTBEJTBBRG93bmxvYWQrJTI2K0luc3RhbGwrTWluaXNoaWZ0K0NsdXN0ZXIlMEQlMEElNUJzb3VyY2UlMkNiYXNoJTVEJTBEJTBBLS0tLSUwRCUwQSUyNCtjdXJsKy1MTytodHRwcyUzQSUyRiUyRmdpdGh1Yi5jb20lMkZtaW5pc2hpZnQlMkZtaW5pc2hpZnQlMkZyZWxlYXNlcyUyRmRvd25sb2FkJTJGdjEuMjQuMCUyRm1pbmlzaGlmdC0xLjI0LjAtZGFyd2luLWFtZDY0LnRneiUwRCUwQSUyNCt0YXIrLXh2ZittaW5pc2hpZnQtMS4yNC4wLWRhcndpbi1hbWQ2NC50Z3orJTBEJTBBLS0tLSUwRCUwQU1vcmUrTWluaXNoaWZ0K3JlbGVhc2VzK2h0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRm1pbmlzaGlmdCUyRm1pbmlzaGlmdCUyRnJlbGVhc2VzJTBEJTBBJTBEJTBBTm90ZSUzQSslMjJtaW5pa3ViZSUyMitzaG91bGQrYmUraW50ZXJjaGFuZ2VhYmxlK3dpdGgrJTIybWluaXNoaWZ0JTIyK2luK3RoZStpbnN0cnVjdGlvbnMrYmVsb3clMkMraWYrdGhlcmUraXMrYSt1bmlxdWUrYXNwZWN0K3RoZW4rdGhhdCt3aWxsK2JlK2NhbGxlZCtvdXQuKyslMEQlMEElMEQlMEElMEQlMEElM0QlM0QlM0QrRW52aXJvbm1lbnQlMEQlMEElNUJzb3VyY2UlMkNiYXNoJTVEJTBEJTBBLS0tLSUwRCUwQSUyMyUyMSUyRmJpbiUyRmJhc2glMEQlMEElMEQlMEFleHBvcnQrTUlOSUtVQkVfSE9NRSUzRCUyRlVzZXJzJTJGYnVycnN1dHRlciUyRm1pbmlrdWJlXzAuMjkuMCUyRmJpbiUzQiUwRCUwQWV4cG9ydCtQQVRIJTNEJTI0TUlOSUtVQkVfSE9NRSUzQSUyNFBBVEglMEQlMEEtLS0tJTBEJTBBJTBEJTBBJTVCc291cmNlJTJDYmFzaCU1RCUwRCUwQS0tLS0lMEQlMEElMjQrbWluaWt1YmUrdmVyc2lvbiUwRCUwQW1pbmlrdWJlK3ZlcnNpb24lM0ErdjAuMjkuMCUwRCUwQSUyMytvciUwRCUwQSUyNCttaW5pc2hpZnQrdmVyc2lvbiUwRCUwQW1pbmlzaGlmdCt2MS4yNC4wJTJCOGE5MDRkMCUwRCUwQS0tLS0lMEQlMEElMEQlMEElM0QlM0QlM0QrQ3JlYXRlK3RoZStWTSUwRCUwQSU1QnNvdXJjZSUyQ2Jhc2glNUQlMEQlMEEtLS0tJTBEJTBBJTIzJTIxJTJGYmluJTJGYmFzaCUwRCUwQSUwRCUwQW1pbmlrdWJlK2NvbmZpZytzZXQrbWVtb3J5KzYxNDQlMEQlMEFtaW5pa3ViZStjb25maWcrc2V0K2NwdXMrMislM0MxJTNFJTBEJTBBbWluaWt1YmUrY29uZmlnK3NldCt2bS1kcml2ZXIrdmlydHVhbGJveCslMjNoeXBlcmtpdCslM0MyJTNFJTBEJTBBJTIzK21pbmlzaGlmdCthZGRvbitlbmFibGUrYWRtaW4tdXNlcislM0MzJTNFJTBEJTBBJTIzK21pbmlzaGlmdCthZGRvbitlbmFibGUrYW55dWlkKyUzQzQlM0UlMEQlMEFtaW5pa3ViZStzdGFydCUwRCUwQS0tLS0lMEQlMEElM0MxJTNFK0krdXNlKzIrY3B1cytoZXJlK2JlY2F1c2UrSStoYXZlKzYrY29yZStsYXB0b3AuKytLZWVwK3RoaXMrbnVtYmVyK2F0K29yK2JlbG93KzUwJTI1K29mK292ZXJhbGwrbGFwdG9wK3Jlc291cmNlcy4lMEQlMEFUaGVyZStpcytub3RoaW5nK2luK3RoaXMrc2VyaWVzK29mK2V4ZXJjaXNlcyt0aGF0K2lzK0NQVStpbnRlbnNpdmUrYnV0K21pbmlzaGlmdCtoYXMrYSsxMCtwb2QrcGVyK2NvcmUrbGltaXQuJTBEJTBBJTNDMiUzRStJK3VzZSt2aXJ0dWFsYm94K2JlY2F1c2UraXQraXMrYXZhaWxhYmxlK29uK2FsbCtwbGF0Zm9ybXMuKytUaGVyZSthK251bWJlcitvZitoeXBlcnZpc29yK29wdGlvbnMlMEQlMEFodHRwcyUzQSUyRiUyRmt1YmVybmV0ZXMuaW8lMkZkb2NzJTJGdGFza3MlMkZ0b29scyUyRmluc3RhbGwtbWluaWt1YmUlMkYlMjNpbnN0YWxsLWEtaHlwZXJ2aXNvciUwRCUwQSUzQzMlM0UrTWluaXNoaWZ0K2lzK3NlY3VyZWQrYnkrZGVmYXVsdCUyQyt0aGlzK2NyZWF0ZXMrYW4rY2x1c3RlcislMjJhZG1pbiUyMit1c2VyJTBEJTBBJTBEJTBBTm90ZSUzQSt3aXRoKzEuMjQlMkMrSStoYXZlK3NlZW4rdGhpcytjb21tYW5kK2ZhaWwlMkMrdGhlK3dvcmthcm91bmQraXMrdG8rd2FpdCt1bnRpbCttaW5pc2hpZnQrc3RhcnQrY29tcGxldGVzK3RoZW4rdXNlJTBEJTBBJTIybWluaXNoaWZ0K2FkZG9ucythcHBseSthZG1pbi11c2VyJTIyJTBEJTBBJTBEJTBBJTNDNCUzRStBK21lY2hhbmlzbStvbitPcGVuU2hpZnQrdGhhdCthbGxvd3MrdGhlK2V4ZWN1dGlvbitvZithbitpbWFnZSt3aXRoK2FueSt1c2VyK2lkJTJDK2luY2x1ZGluZytyb290LiUwRCUwQWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmJ1cnJzdXR0ZXIlMkY5c3RlcHNhd2Vzb21lJTJGaXNzdWVzJTJGMyUwRCUwQSUwRCUwQU5vdGUlM0Erd2l0aCsxLjI0JTJDK0kraGF2ZStzZWVuK3RoaXMrY29tbWFuZCtmYWlsJTJDK3RoZSt3b3JrYXJvdW5kK2lzK3RvK3dhaXQrdW50aWwrbWluaXNoaWZ0K3N0YXJ0K2NvbXBsZXRlcyt0aGVuK3VzZSUwRCUwQSUyMm1pbmlzaGlmdCthZGRvbnMrYXBwbHkrYW55dWlkJTIyJTBEJTBBJTBEJTBBLlZpcnR1YWxCb3grVUklMEQlMEFpbWFnZSUzQSUzQXZpcnR1YWxib3hfdWkucG5nJTVCVmlydHVhbEJveCU1RCUwRCUwQSUwRCUwQSUwRCUwQSUzRCUzRCUzRCtDaGVjaytzdGF0dXMlMkMrSVArJTI2K0Rhc2hib2FyZCUyRkNvbnNvbGUlMEQlMEEtLS0tJTBEJTBBJTI0K21pbmlrdWJlK2NvbmZpZyt2aWV3JTBEJTBBLStjcHVzJTNBKzIlMEQlMEEtK21lbW9yeSUzQSs2MTQ0JTBEJTBBLSt2bS1kcml2ZXIlM0ErdmlydHVhbGJveCUwRCUwQSUyNCttaW5pa3ViZStzdGF0dXMlMEQlMEFtaW5pa3ViZSUzQStSdW5uaW5nJTBEJTBBY2x1c3RlciUzQStSdW5uaW5nJTBEJTBBa3ViZWN0bCUzQStDb3JyZWN0bHkrQ29uZmlndXJlZCUzQStwb2ludGluZyt0byttaW5pa3ViZS12bSthdCsxOTIuMTY4Ljk5LjEwMyUwRCUwQSUyNCttaW5pa3ViZStpcCUwRCUwQTE5Mi4xNjguOTkuMTAzJTBEJTBBJTI0K21pbmlrdWJlK2Rhc2hib2FyZCstLXVybCUwRCUwQWh0dHAlM0ElMkYlMkYxOTIuMTY4Ljk5LjEwMyUzQTMwMDAwJTBEJTBBJTI0K21pbmlrdWJlK2Rhc2hib2FyZCUwRCUwQS0tLS0lMEQlMEElMEQlMEEubWluaWt1YmUrZGFzaGJvYXJkJTBEJTBBaW1hZ2UlM0ElM0FtaW5pa3ViZV9kYXNoYm9hcmQucG5nJTVCTWluaWt1YmUrRGFzaGJvYXJkJTVEJTBEJTBBJTBEJTBBLm1pbmlzaGlmdCtkYXNoYm9hcmQlMEQlMEFpbWFnZSUzQSUzQW9wZW5zaGlmdF9kYXNoYm9hcmQucG5nJTVCTWluaXNoaWZ0K0Rhc2hib2FyZCU1RCUwRCUwQSUwRCUwQSUwRCUwQSUwRCUwQSUzRCUzRCUzRCtDaGVjayt5b3VyK2t1YmVjdGwrQ0xJJTBEJTBBLS0tLSUwRCUwQSUyNCtrdWJlY3RsK2NvbmZpZytjdXJyZW50LWNvbnRleHQlMEQlMEFtaW5pa3ViZSUwRCUwQSUyMytvcitpbit0aGUrY2FzZStvZittaW5pc2hpZnQlMEQlMEElMjMrJTJGMTkyLTE2OC05OS0xMDIlM0E4NDQzJTJGYWRtaW4lMEQlMEElMEQlMEElMjQra3ViZWN0bCt2ZXJzaW9uJTBEJTBBQ2xpZW50K1ZlcnNpb24lM0ErdmVyc2lvbi5JbmZvJTdCTWFqb3IlM0ElMjIxJTIyJTJDK01pbm9yJTNBJTIyMTIlMjIlMkMrR2l0VmVyc2lvbiUzQSUyMnYxLjEyLjAlMjIlMkMrR2l0Q29tbWl0JTNBJTIyMGVkMzM4ODFkYzQzNTU0OTVmNjIzYzZmMjJlN2RkMGI3NjMyYjdjMCUyMiUyQytHaXRUcmVlU3RhdGUlM0ElMjJjbGVhbiUyMiUyQytCdWlsZERhdGUlM0ElMjIyMDE4LTA5LTI3VDE3JTNBMDUlM0EzMlolMjIlMkMrR29WZXJzaW9uJTNBJTIyZ28xLjEwLjQlMjIlMkMrQ29tcGlsZXIlM0ElMjJnYyUyMiUyQytQbGF0Zm9ybSUzQSUyMmRhcndpbiUyRmFtZDY0JTIyJTdEJTBEJTBBU2VydmVyK1ZlcnNpb24lM0ErdmVyc2lvbi5JbmZvJTdCTWFqb3IlM0ElMjIxJTIyJTJDK01pbm9yJTNBJTIyMTAlMjIlMkMrR2l0VmVyc2lvbiUzQSUyMnYxLjEwLjAlMjIlMkMrR2l0Q29tbWl0JTNBJTIyZmMzMmQyZjM2OThlMzZiOTMzMjJhMzQ2NWY2M2ExNGU5ZjBlYWVhZCUyMiUyQytHaXRUcmVlU3RhdGUlM0ElMjJjbGVhbiUyMiUyQytCdWlsZERhdGUlM0ElMjIyMDE4LTAzLTI2VDE2JTNBNDQlM0ExMFolMjIlMkMrR29WZXJzaW9uJTNBJTIyZ28xLjkuMyUyMiUyQytDb21waWxlciUzQSUyMmdjJTIyJTJDK1BsYXRmb3JtJTNBJTIybGludXglMkZhbWQ2NCUyMiU3RCUwRCUwQS0tLS0lMEQlMEFhbmQraWYrbmVlZGVkJTJDK3BvaW50K2t1YmVjdGwrYmFjaythdCttaW5pa3ViZSt3aXRoKyUyMmt1YmVjdGwrY29uZmlnK3VzZS1jb250ZXh0K21pbmlrdWJlJTIyJTBEJTBBJTBEJTBBQWxzbyUyQyt0aGVyZStpcythK2Nvb2wrdG9vbCt0aGF0K21ha2VzK3N3aXRjaGluZytiZXR3ZWVuK0t1YmVybmV0ZXMrY2x1c3RlcnMrYW5kK3RoZStjb250ZXh0K2ErbG90K2Vhc2llciUwRCUwQWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmFobWV0YiUyRmt1YmVjdHglMEQlMEElMEQlMEEtLS0tJTBEJTBBYnJldytpbnN0YWxsK2t1YmVjdHglMEQlMEEtLS0tJTBEJTBBJTBEJTBBJTNEJTNEJTNEK05hbWVzcGFjZXMrJTI2K1BvZHMlMEQlMEEtLS0tJTBEJTBBJTI0K2t1YmVjdGwrZ2V0K25hbWVzcGFjZXMlMEQlMEElMEQlMEElMjQra3ViZWN0bCtnZXQrcG9kKy0tYWxsLW5hbWVzcGFjZXMlMEQlMEEtLS0tJTBEJTBBJTBEJTBBJTNEJTNEJTNEK0NvbmZpZ3VyZStFbnYrZm9yK0RvY2tlcislMEQlMEEtLS0tJTBEJTBBJTI0K21pbmlrdWJlK2RvY2tlci1lbnYlMEQlMEFleHBvcnQrRE9DS0VSX1RMU19WRVJJRlklM0QlMjIxJTIyJTBEJTBBZXhwb3J0K0RPQ0tFUl9IT1NUJTNEJTIydGNwJTNBJTJGJTJGMTkyLjE2OC45OS4xMDMlM0EyMzc2JTIyJTBEJTBBZXhwb3J0K0RPQ0tFUl9DRVJUX1BBVEglM0QlMjIlMkZVc2VycyUyRmJ1cnJzdXR0ZXIlMkZtaW5pa3ViZV8wLjI4LjElMkZiaW4lMkYubWluaWt1YmUlMkZjZXJ0cyUyMiUwRCUwQWV4cG9ydCtET0NLRVJfQVBJX1ZFUlNJT04lM0QlMjIxLjM1JTIyJTBEJTBBJTIzK29yJTBEJTBBJTI0K2V2YWwrJTI0JTI4bWluaWt1YmUrZG9ja2VyLWVudiUyOSUwRCUwQSUyMythbmQlMEQlMEElMjMrZXZhbCslMjQlMjhtaW5pc2hpZnQrb2MtZW52JTI5KyUzQzElM0UlMEQlMEEtLS0tJTBEJTBBJTNDMSUzRStUaGlzK2NvbW1hbmQrcHV0cyt0aGUrJTIyb2MlMjIrQ0xJK3Rvb2wraW4reW91citQQVRIJTBEJTBBJTBEJTBBJTNEJTNEJTNEK1VzaW5nK0RvY2tlcitDTEkrJTBEJTBBLS0tLSUwRCUwQSUyNCtkb2NrZXIrcHMlMEQlMEElMjQrZG9ja2VyK2ltYWdlcyUwRCUwQS0tLS0lMEQlMEFUaGVzZStjb21tYW5kcytzaG91bGQrbm93K2JlK3B1bGxpbmcrZnJvbSt5b3VyK21pbmlrdWJlJTJGbWluaXNoaWZ0K2hvc3RlZCtkb2NrZXIrZGFlbW9uLisrWW91K2Nhbit0dXJuK29mZit0aGUrRG9ja2VyK2ZvcitNYWMlMkZXaW5kb3dzK2RhZW1vbit0bytzYXZlK21lbW9yeS4lMEQlMEElMEQlMEElMEQlMEElM0QlM0QlM0QrTWluaWt1YmUlMkZNaW5pc2hpZnQrSGFwcHklM0YlMEQlMEEtLS0tJTBEJTBBJTI0K21pbmlrdWJlK3NzaCslM0MxJTNFJTBEJTBBJTI0K2ZyZWUrLWglMEQlMEElMjQrZGYrLWglMEQlMEElMjQrdG9wJTBEJTBBJTI0K2N0cmwtYyUwRCUwQSUyNCtleGl0JTBEJTBBLS0tLSUwRCUwQSUzQzElM0UreW91K2NhbitzaGVsbCtpbnRvK3lvdXIrVk0rYW5kK2NoZWNrK29uK3Jlc291cmNlcyUwRCUwQSUwRCUwQSUzRCUzRCtIZWxsbytXb3JsZCUwRCUwQSUwRCUwQU1pbmlzaGlmdCtpcytzZWN1cmVkK2J5K2RlZmF1bHQrYW5kK3JlcXVpcmVzK3lvdSt0bytsb2dpbiUwRCUwQSUwRCUwQS0tLS0lMEQlMEElMjQrb2MrbG9naW4rJTI0JTI4bWluaXNoaWZ0K2lwJTI5JTNBODQ0MystdSthZG1pbistcCthZG1pbiUwRCUwQS0tLS0lMEQlMEElMEQlMEFUaGUrJTIyZGVmYXVsdCUyMituYW1lc3BhY2Urc2hvdWxkK2FscmVhZHkrYmUrdGhlK2N1cnJlbnQrY29udGV4dCUyQytidXQrc2V0dGluZytpdCtoZXJlK3RvK21ha2UraXQrb2J2aW91cyUwRCUwQSUwRCUwQS0tLS0lMEQlMEElMjQra3ViZWN0bCtjb25maWcrc2V0LWNvbnRleHQrJTI0JTI4a3ViZWN0bCtjb25maWcrY3VycmVudC1jb250ZXh0JTI5Ky0tbmFtZXNwYWNlJTNEZGVmYXVsdCUwRCUwQSUyMytvciUwRCUwQSUyNCtrdWJlbnMrZGVmYXVsdCslMjNrdWJlbnMrY29tZXMrd2l0aCt0aGUra3ViZWN0eCt0b29sJTBEJTBBLS0tLSUwRCUwQSUwRCUwQVRoZStjb21tYW5kKyUyMmt1YmVjdGwrcnVuJTIyK2lzK3RoZStmYXN0ZXN0K3dheSt0bytkZXBsb3krYStwb2QrJTI4dGhpbmsrbGludXgrY29udGFpbmVyJTI5LitJdCtpcyt1c2VmdWwrZHVyaW5nK2RldmVsb3BtZW50K2J1dCtOT1QrcmVjb21tZW5kZWQrZm9yK3Byb2R1Y3Rpb24lMEQlMEEtLS0tJTBEJTBBJTI0K2t1YmVjdGwrcnVuK2hlbGxvLW1pbmlrdWJlKy0taW1hZ2UlM0RrOHMuZ2NyLmlvJTJGZWNob3NlcnZlciUzQTEuMTArLS1wb3J0JTNEODA4MCUwRCUwQS0tLS0lMEQlMEElMEQlMEFJdCtwcm9kdWNlcythK0RlcGxveW1lbnQlMEQlMEEtLS0tJTBEJTBBJTI0K2t1YmVjdGwrZ2V0K2RlcGxveW1lbnRzJTBEJTBBTkFNRSsrKysrKysrKysrKytERVNJUkVEKysrQ1VSUkVOVCsrK1VQLVRPLURBVEUrKytBVkFJTEFCTEUrKytBR0UlMEQlMEFoZWxsby1taW5pa3ViZSsrKzErKysrKysrKysxKysrKysrKysrMSsrKysrKysrKysrKzErKysrKysrKysrKzdzJTBEJTBBLS0tLSUwRCUwQSUwRCUwQXdoaWNoK3Byb2R1Y2VzK2ErUG9kJTBEJTBBLS0tLSUwRCUwQSUyNCtrdWJlY3RsK2dldCtwb2RzJTBEJTBBTkFNRSsrKysrKysrKysrKysrKysrKysrKysrKysrKysrK1JFQURZKysrKytTVEFUVVMrKysrUkVTVEFSVFMrKytBR0UlMEQlMEFoZWxsby1taW5pa3ViZS03Yzc3YjY4Y2ZmLTJ4Y3BwKysrMSUyRjErKysrKysrUnVubmluZysrKzArKysrKysrKysrMjdzJTBEJTBBJTBEJTBBJTIzK1RpcCUyQytpZit5b3UrY2FuK25vdCtmaW5kK3lvdXIrcG9kJTJDK3BlcmhhcHMraXQraXMraW4rYW5vdGhlcituYW1lc3BhY2UlMEQlMEElMjQra3ViZWN0bCtnZXQrcG9kcystLWFsbC1uYW1lc3BhY2VzJTBEJTBBJTBEJTBBJTIzK2FuZCtpdCtjYW4rYmUrZnVuK3RvK3NlZSt3aGF0K2xhYmVscyt3ZXJlK2FwcGxpZWQrdG8reW91citwb2QlMEQlMEElMjQra3ViZWN0bCtnZXQrcG9kcystLXNob3ctbGFiZWxzJTBEJTBBLS0tLSUwRCUwQSUwRCUwQVlvdStjcmVhdGUrYStTZXJ2aWNlJTBEJTBBLS0tLSUwRCUwQSUyNCtrdWJlY3RsK2V4cG9zZStkZXBsb3ltZW50K2hlbGxvLW1pbmlrdWJlKy0tdHlwZSUzRE5vZGVQb3J0JTBEJTBBc2VydmljZSslMjJoZWxsby1taW5pa3ViZSUyMitleHBvc2VkJTBEJTBBLS0tLSUwRCUwQSUwRCUwQWFuZCtzZWUrdGhhdCtuZXdseSttaW50ZWQrU2VydmljZStvYmplY3QlMEQlMEEtLS0tJTBEJTBBJTI0K2t1YmVjdGwrZ2V0K3NlcnZpY2UlMEQlMEFOQU1FKysrKysrKysrKysrK1RZUEUrKysrKysrK0NMVVNURVItSVArKysrKytFWFRFUk5BTC1JUCsrK1BPUlQlMjhTJTI5KysrKysrKysrK0FHRSUwRCUwQWhlbGxvLW1pbmlrdWJlKysrTm9kZVBvcnQrKysrMTAuOTcuMTM5LjE3NysrKyUzQ25vbmUlM0UrKysrKysrKzgwODAlM0EzMjQwMyUyRlRDUCsrKzIwcyUwRCUwQWt1YmVybmV0ZXMrKysrKysrQ2x1c3RlcklQKysrMTAuOTYuMC4xKysrKysrKyUzQ25vbmUlM0UrKysrKysrKzQ0MyUyRlRDUCsrKysrKysrKysrMWglMEQlMEEtLS0tJTBEJTBBJTBEJTBBWW91K2NhbitmaW5kK3RoZStTZXJ2aWNlJTI3cytVUkwrJTBEJTBBLS0tLSUwRCUwQSUyNCttaW5pa3ViZStzZXJ2aWNlK2hlbGxvLW1pbmlrdWJlKy0tdXJsJTBEJTBBaHR0cCUzQSUyRiUyRjE5Mi4xNjguOTkuMTAzJTNBMzI0MDMlMEQlMEElMjMrYW5kK2N1cmwraXQlMEQlMEElMjQrY3VybCslMjQlMjhtaW5pa3ViZStzZXJ2aWNlK2hlbGxvLW1pbmlrdWJlKy0tdXJsJTI5JTBEJTBBLS0tLSUwRCUwQW9yK2p1c3QrbG9hZCt1cCt0aGUrVVJMK2luK3lvdXIrZmF2b3JpdGUrYnJvd3NlciUwRCUwQWh0dHBzJTNBJTJGJTJGc2NyZWVuY2FzdC5jb20lMkZ0JTJGazVHVkpsZmclMEQlMEElMEQlMEFOb3RlJTNBK21pbmlzaGlmdCtoYXMrYStzbGlnaHRseStkaWZmZXJlbnQrdmFyaWFudCtvbit0aGUrJTIyc2VydmljZSUyMitjb21tYW5kJTBEJTBBLS0tLSUwRCUwQSUyNCttaW5pc2hpZnQrb3BlbnNoaWZ0K3NlcnZpY2UraGVsbG8tbWluaWt1YmUrLS11cmwlMEQlMEElMjMrYW5kK2N1cmwraXQlMEQlMEElMjQrY3VybCslMjQlMjhtaW5pc2hpZnQrb3BlbnNoaWZ0K3NlcnZpY2UraGVsbG8tbWluaWt1YmUrLS11cmwlMjklMEQlMEEtLS0tJTBEJTBBJTBEJTBBVGhlK0RlcGxveW1lbnQrdGhhdCt3YXMrZ2VuZXJhdGVkK3ZpYSt5b3VyKyUyMmt1YmVjdGwrcnVuJTIyK2NvbW1hbW5kK2FjdHVhbGx5K2hhcythK2J1bmNoK29mK2ludGVyZXN0aW5nK2RlZmF1bHRzJTBEJTBBLS0tLSUwRCUwQSUyNCtrdWJlY3RsK2Rlc2NyaWJlK2RlcGxveW1lbnQraGVsbG8tbWluaWt1YmUlMEQlMEFOYW1lJTNBKysrKysrKysrKysrKysrKysrK2hlbGxvLW1pbmlrdWJlJTBEJTBBTmFtZXNwYWNlJTNBKysrKysrKysrKysrKytkZWZhdWx0JTBEJTBBQ3JlYXRpb25UaW1lc3RhbXAlM0ErKysrKytTdW4lMkMrMjkrSnVsKzIwMTgrMTUlM0EyMSUzQTM4Ky0wNDAwJTBEJTBBTGFiZWxzJTNBKysrKysrKysrKysrKysrKytydW4lM0RoZWxsby1taW5pa3ViZSUwRCUwQUFubm90YXRpb25zJTNBKysrKysrKysrKysrZGVwbG95bWVudC5rdWJlcm5ldGVzLmlvJTJGcmV2aXNpb24lM0QxJTBEJTBBU2VsZWN0b3IlM0ErKysrKysrKysrKysrKytydW4lM0RoZWxsby1taW5pa3ViZSUwRCUwQVJlcGxpY2FzJTNBKysrKysrKysrKysrKysrMStkZXNpcmVkKyU3QysxK3VwZGF0ZWQrJTdDKzErdG90YWwrJTdDKzErYXZhaWxhYmxlKyU3QyswK3VuYXZhaWxhYmxlJTBEJTBBU3RyYXRlZ3lUeXBlJTNBKysrKysrKysrKytSb2xsaW5nVXBkYXRlJTBEJTBBTWluUmVhZHlTZWNvbmRzJTNBKysrKysrKyswJTBEJTBBUm9sbGluZ1VwZGF0ZVN0cmF0ZWd5JTNBKysxK21heCt1bmF2YWlsYWJsZSUyQysxK21heCtzdXJnZSUwRCUwQVBvZCtUZW1wbGF0ZSUzQSUwRCUwQSsrTGFiZWxzJTNBKytydW4lM0RoZWxsby1taW5pa3ViZSUwRCUwQSsrQ29udGFpbmVycyUzQSUwRCUwQSsrK2hlbGxvLW1pbmlrdWJlJTNBJTBEJTBBKysrK0ltYWdlJTNBKysrKysrKytrOHMuZ2NyLmlvJTJGZWNob3NlcnZlciUzQTEuMTAlMEQlMEErKysrUG9ydCUzQSsrKysrKysrKzgwODAlMkZUQ1AlMEQlMEErKysrSG9zdCtQb3J0JTNBKysrKzAlMkZUQ1AlMEQlMEErKysrRW52aXJvbm1lbnQlM0ErKyUzQ25vbmUlM0UlMEQlMEErKysrTW91bnRzJTNBKysrKysrKyUzQ25vbmUlM0UlMEQlMEErK1ZvbHVtZXMlM0ErKysrKysrKyUzQ25vbmUlM0UlMEQlMEFDb25kaXRpb25zJTNBJTBEJTBBKytUeXBlKysrKysrKysrKytTdGF0dXMrK1JlYXNvbiUwRCUwQSsrLS0tLSsrKysrKysrKysrLS0tLS0tKystLS0tLS0lMEQlMEErK0F2YWlsYWJsZSsrKysrK1RydWUrKysrTWluaW11bVJlcGxpY2FzQXZhaWxhYmxlJTBEJTBBKytQcm9ncmVzc2luZysrKytUcnVlKysrK05ld1JlcGxpY2FTZXRBdmFpbGFibGUlMEQlMEFPbGRSZXBsaWNhU2V0cyUzQSsrJTNDbm9uZSUzRSUwRCUwQU5ld1JlcGxpY2FTZXQlM0ErKytoZWxsby1taW5pa3ViZS03Yzc3YjY4Y2ZmKyUyODElMkYxK3JlcGxpY2FzK2NyZWF0ZWQlMjklMEQlMEFFdmVudHMlM0ElMEQlMEErK1R5cGUrKysrUmVhc29uKysrKysrKysrKysrK0FnZSsrK0Zyb20rKysrKysrKysrKysrKysrKysrTWVzc2FnZSUwRCUwQSsrLS0tLSsrKystLS0tLS0rKysrKysrKysrKysrLS0tLSsrLS0tLSsrKysrKysrKysrKysrKysrKystLS0tLS0tJTBEJTBBKytOb3JtYWwrK1NjYWxpbmdSZXBsaWNhU2V0Kys1bSsrKytkZXBsb3ltZW50LWNvbnRyb2xsZXIrK1NjYWxlZCt1cCtyZXBsaWNhK3NldCtoZWxsby1taW5pa3ViZS03Yzc3YjY4Y2ZmK3RvKzElMEQlMEEtLS0tJTBEJTBBJTBEJTBBYnV0K3RoYXQraXMrYmV5b25kK3RoZStzY29wZStvZitzaW1wbHkrZ2V0dGluZytzdGFydGVkJTJDK2p1c3QrcmVtZW1iZXIrdGhlKyUyMmt1YmVjdGwrZGVzY3JpYmUrJTNDb2JqZWN0JTNFJTIyK3RyaWNrK2ZvcitmdXR1cmUrcmVmZXJlbmNlLiUwRCUwQSUwRCUwQUFub3RoZXIra2V5K3RpcCt0bytyZW1lbWJlciUyQytpcyslMjJnZXQrYWxsJTIyK3doaWNoK2lzK3VzZWZ1bCtmb3Irc2VlaW5nK3doYXQrb3RoZXIrb2JqZWN0cyttaWdodCtiZStmbG9hdGluZythcm91bmQlMEQlMEEtLS0tJTBEJTBBJTI0K2t1YmVjdGwrZ2V0K2FsbCslMEQlMEElMjMrb3Ird2l0aCstbitteW5hbWVzcGFjZSUwRCUwQSUyNCtrdWJlY3RsK2dldCthbGwrLW4rZGVmYXVsdCUwRCUwQS0tLS0lMEQlMEErJTBEJTBBJTNEJTNEJTNEK0NsZWFuK3VwJTBEJTBBLS0tLSUwRCUwQSUyNCtrdWJlY3RsK2RlbGV0ZStzZXJ2aWNlK2hlbGxvLW1pbmlrdWJlJTBEJTBBJTBEJTBBJTI0K2t1YmVjdGwrZGVsZXRlK2RlcGxveW1lbnQraGVsbG8tbWluaWt1YmUlMEQlMEEtLS0tJTBEJTBBQW5kK3lvdSt3aWxsK25vdGljZSt0aGF0K3RoZStwb2QrYWxzbyt0ZXJtaW5hdGVzLitJbithbm90aGVyK3Rlcm1pbmFsK3dpbmRvdyUyQyt1c2UrdGhlKy13K3RvK3dhdGNoK2FzK3RoZStwb2QrY2hhbmdlcytzdGF0ZSUwRCUwQSUwRCUwQS0tLS0lMEQlMEElMjQra3ViZWN0bCtnZXQrcG9kcystdyUwRCUwQU5BTUUrKysrKysrKysrKysrKysrKysrKysrKysrKysrKytSRUFEWSsrKysrU1RBVFVTKysrK1JFU1RBUlRTKysrQUdFJTBEJTBBaGVsbG8tbWluaWt1YmUtN2M3N2I2OGNmZi0yeGNwcCsrKzElMkYxKysrKysrK1J1bm5pbmcrKyswKysrKysrKysrKzhtJTBEJTBBaGVsbG8tbWluaWt1YmUtN2M3N2I2OGNmZi0yeGNwcCsrKzElMkYxKysrKysrK1Rlcm1pbmF0aW5nKysrMCsrKysrKysrKzltJTBEJTBBaGVsbG8tbWluaWt1YmUtN2M3N2I2OGNmZi0yeGNwcCsrKzAlMkYxKysrKysrK1Rlcm1pbmF0aW5nKysrMCsrKysrKysrKzltJTBEJTBBLS0tLSUwRCUwQVVzZStDdHJsLWMrdG8rc3RvcCt3YXRjaGluZytwb2RzJTBEJTBBJTBEJTBBWW91K2NhbitzaHV0ZG93bit0aGUrVk0rdG8rc2F2ZStyZXNvdXJjZXMrd2hlbitub3QraW4rdXNlJTBEJTBBLS0tLSUwRCUwQSUyNCttaW5pa3ViZStzdG9wJTBEJTBBJTIzK2dvK2Fib3V0K3lvdXIrYnVzaW5lc3MlMkMrY29tZStiYWNrK2xhdGVyK2FuZCUwRCUwQSUyNCttaW5pa3ViZStzdGFydCUwRCUwQS0tLS0lMEQlMEElMEQlMEFhbmQraWYreW91K25lZWQrdG8rd2lwZStvdXQrdGhlK1ZNK2VudGlyZWx5JTBEJTBBLS0tLSUwRCUwQSUyNCttaW5pa3ViZStkZWxldGUlMEQlMEEtLS0tJTBEJTBBJTBEJTBBWW91cittaW5pa3ViZStjb25maWd1cmF0aW9uK2dvZXMraW4rYStoaWRkZW4rZGlyZWN0b3J5K2F0JTBEJTBBLS0tLSUwRCUwQSUyNE1JTklLVUJFX0hPTUUlMkYubWluaWt1YmUlMkZtYWNoaW5lcyUyRm1pbmlrdWJlJTJGY29uZmlnLmpzb24rJTBEJTBBLS0tLSUwRCUwQSUwRCUwQWFuZCt5b3VyK2t1YmVjdGwrY29uZmlndXJhdGlvbitnb2VzK2luK2ErZGlmZmVyZW50K2hpZGRlbitkaXJlY3RvcnkrYXQlMEQlMEEtLS0tJTBEJTBBJTI0SE9NRSUyRi5rdWJlJTJGY29uZmlnJTBEJTBBLS0tLSUwRCUwQWFuZCtpZit0aGluZ3MrZ28rcmVhbGx5K2JhZGx5JTJDK3lvdSttaWdodCtuZWVkK3RvK3dpcGUrb3V0K3Rob3NlK2RpcmVjdG9yaWVzJTBEJTBBLS0tLSUwRCUwQSUyNCtybSstcmYrJTdFJTJGLmt1YmUlMEQlMEElMjQrcm0rLXJmKyUyNE1JTklLVUJFX0hPTUUlMkYubWluaWt1YmUlMEQlMEEtLS0tJTBEJTBBJTBEJTBBJTNEJTNEK01vcmUrcmVzb3VyY2VzJTBEJTBBaHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGa3ViZXJuZXRlcyUyRm1pbmlrdWJlJTIzaW5zdGFsbGF0aW9uJTBEJTBBJTBEJTBBaHR0cHMlM0ElMkYlMkZrdWJlcm5ldGVzLmlvJTJGZG9jcyUyRnNldHVwJTJGbWluaWt1YmUlMkYlMjNxdWlja3N0YXJ0JTBEJTBBaW5jbHVkaW5nK3Byb3h5K2NoYWxsZW5nZXMlMEQlMEElMEQlMEElMkFIeXBlcmtpdCtmb3IrTWFjJTJBJTBEJTBBJTBEJTBBaHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGa3ViZXJuZXRlcyUyRm1pbmlrdWJlJTJGYmxvYiUyRm1hc3RlciUyRmRvY3MlMkZkcml2ZXJzLm1kJTIzaHlwZXJraXQtZHJpdmVyJTBEJTBBJTBEJTBBJTJBTm9kZS5qcyt0dXRvcmlhbCUyQSUwRCUwQSUwRCUwQWh0dHBzJTNBJTJGJTJGa3ViZXJuZXRlcy5pbyUyRmRvY3MlMkZ0dXRvcmlhbHMlMkZoZWxsby1taW5pa3ViZSUyRiUwRCUwQSUwRCUwQSUyQURlYWxpbmcrd2l0aCttdWx0aXBsZStjbHVzdGVycyUyQSUwRCUwQSUwRCUwQWh0dHBzJTNBJTJGJTJGa3ViZXJuZXRlcy5pbyUyRmRvY3MlMkZ0YXNrcyUyRmFjY2Vzcy1hcHBsaWNhdGlvbi1jbHVzdGVyJTJGY29uZmlndXJlLWFjY2Vzcy1tdWx0aXBsZS1jbHVzdGVycyUyRiUyM2RlZmluZS1jbHVzdGVycy11c2Vycy1hbmQtY29udGV4dHMmZXhjZXJwdD1PcGVuU2hpZnQraXMrUmVkK0hhdCUyN3MrZGlzdHJpYnV0aW9uK29mK0t1YmVybmV0ZXMrJTBEJTBBJTBEJTBBbWluaWt1YmUrYW5kK21pbmlzaGlmdCthcmUrZXNzZW50aWFsbHkrZXF1aXZhbGVudCthbmQrd2lsbCtiZSt1c2VkK2Zvcit0aGUrZGVtb25zdHJhdGlvbnMlMkZleGFtcGxlcytiZWxvdy4lMEQlMEElMEQlMEFUaGVzZStpbnN0cnVjdGlvbnMrYXJlK3ByaW1hcmlseStmb3IrTGludXgrJTI2K01hY09TLisrQXQrc29tZStwb2ludCUyQytJK2RvK2hvcGUrdG8rZmluZCt0aGUrdGltZSt0cmFuc2xhdGUrdGhlbSt0bytXaW5kb3dzK1Bvd2VyU2hlbGwuKyslMEQlMEFUaGVzZStpbnN0cnVjdGlvbnMraGF2ZStOT1QrYmVlbit0ZXN0ZWQrd2VsbCtvbitXaW5kb3dzK0Jhc2guJnRhZ3M9RGV2T3BzJTJDS3ViZXJuZXRlcyZzbHVnPWZpcnN0LWJsb2ctcG9zdCZzZW9fdGl0bGU9JnNlYXJjaF9kZXNjcmlwdGlvbj0mZ29fbGl2ZV9hdD0mZXhwaXJlX2F0PSZkYXRlPTIwMTgtMTItMzErMDclM0EwNSIsMTU0NjI0MDE2NC4xODk3NDJdfQ==",
+    "expire_date": "2019-01-14T07:09:24.239Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "secdevops.com",
+    "name": "SecDevOps"
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 1,
+  "fields": {
+    "filter_spec": "max-165x165",
+    "file": "images/Kubernetes.max-165x165.png",
+    "width": 165,
+    "height": 116,
+    "focal_point_key": "",
+    "image": 1
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 2,
+  "fields": {
+    "filter_spec": "original",
+    "file": "images/Kubernetes.original.png",
+    "width": 600,
+    "height": 425,
+    "focal_point_key": "",
+    "image": 1
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 3,
+  "fields": {
+    "filter_spec": "max-165x165",
+    "file": "images/Kubernetes_cluser_architecture-1024x888.max-165x165.png",
+    "width": 165,
+    "height": 143,
+    "focal_point_key": "",
+    "image": 2
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 4,
+  "fields": {
+    "filter_spec": "original",
+    "file": "images/Kubernetes_cluser_architecture-1024x888.original.png",
+    "width": 1024,
+    "height": 888,
+    "focal_point_key": "",
+    "image": 2
+  }
+},
+{
+  "model": "wagtailcore.site",
+  "pk": 1,
+  "fields": {
+    "hostname": "localhost",
+    "port": 80,
+    "site_name": null,
+    "root_page": 3,
+    "is_default_site": true
+  }
+},
+{
+  "model": "wagtailcore.collection",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 0,
+    "name": "Root"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Kubernetes",
+    "slug": "kubernetes"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "DevOps",
+    "slug": "devops"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 2,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 2,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 1,
+    "content_type": 2,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_type": 2,
+    "object_id": 2
+  }
+},
+{
+  "model": "wagtailmenus.mainmenu",
+  "pk": 1,
+  "fields": {
+    "site": 1,
+    "max_levels": 2,
+    "use_specific": 1
+  }
+},
+{
+  "model": "blog.blogpagetag",
+  "pk": 3,
+  "fields": {
+    "tag": 1,
+    "content_object": 4
+  }
+},
+{
+  "model": "blog.blogpagetag",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_object": 4
+  }
+},
+{
+  "model": "blog.blogpagetag",
+  "pk": 7,
+  "fields": {
+    "tag": 1,
+    "content_object": 5
+  }
+},
+{
+  "model": "blog.blogpagetag",
+  "pk": 8,
+  "fields": {
+    "tag": 2,
+    "content_object": 5
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 2,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 2,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 2,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can access Wagtail admin",
+    "content_type": 3,
+    "codename": "access_admin"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 4,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 4,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 4,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 5,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 5,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 5,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 6,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 6,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 6,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 7,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 7,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 7,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 8,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 8,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 8,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 9,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 9,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 9,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 10,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 10,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 10,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can add email address",
+    "content_type": 11,
+    "codename": "add_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can change email address",
+    "content_type": 11,
+    "codename": "change_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can delete email address",
+    "content_type": 11,
+    "codename": "delete_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add email confirmation",
+    "content_type": 12,
+    "codename": "add_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change email confirmation",
+    "content_type": 12,
+    "codename": "change_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete email confirmation",
+    "content_type": 12,
+    "codename": "delete_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can add social account",
+    "content_type": 13,
+    "codename": "add_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can change social account",
+    "content_type": 13,
+    "codename": "change_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can delete social account",
+    "content_type": 13,
+    "codename": "delete_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can add social application",
+    "content_type": 14,
+    "codename": "add_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can change social application",
+    "content_type": 14,
+    "codename": "change_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can delete social application",
+    "content_type": 14,
+    "codename": "delete_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can add social application token",
+    "content_type": 15,
+    "codename": "add_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can change social application token",
+    "content_type": 15,
+    "codename": "change_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can delete social application token",
+    "content_type": 15,
+    "codename": "delete_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add form submission",
+    "content_type": 16,
+    "codename": "add_formsubmission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change form submission",
+    "content_type": 16,
+    "codename": "change_formsubmission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete form submission",
+    "content_type": 16,
+    "codename": "delete_formsubmission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can add redirect",
+    "content_type": 17,
+    "codename": "add_redirect"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can change redirect",
+    "content_type": 17,
+    "codename": "change_redirect"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can delete redirect",
+    "content_type": 17,
+    "codename": "delete_redirect"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can add embed",
+    "content_type": 18,
+    "codename": "add_embed"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can change embed",
+    "content_type": 18,
+    "codename": "change_embed"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can delete embed",
+    "content_type": 18,
+    "codename": "delete_embed"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can add user profile",
+    "content_type": 19,
+    "codename": "add_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can change user profile",
+    "content_type": 19,
+    "codename": "change_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can delete user profile",
+    "content_type": 19,
+    "codename": "delete_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add rendition",
+    "content_type": 20,
+    "codename": "add_rendition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change rendition",
+    "content_type": 20,
+    "codename": "change_rendition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete rendition",
+    "content_type": 20,
+    "codename": "delete_rendition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can add query",
+    "content_type": 21,
+    "codename": "add_query"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can change query",
+    "content_type": 21,
+    "codename": "change_query"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can delete query",
+    "content_type": 21,
+    "codename": "delete_query"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can add Query Daily Hits",
+    "content_type": 22,
+    "codename": "add_querydailyhits"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can change Query Daily Hits",
+    "content_type": 22,
+    "codename": "change_querydailyhits"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can delete Query Daily Hits",
+    "content_type": 22,
+    "codename": "delete_querydailyhits"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can add page",
+    "content_type": 1,
+    "codename": "add_page"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can change page",
+    "content_type": 1,
+    "codename": "change_page"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can delete page",
+    "content_type": 1,
+    "codename": "delete_page"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add group page permission",
+    "content_type": 23,
+    "codename": "add_grouppagepermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change group page permission",
+    "content_type": 23,
+    "codename": "change_grouppagepermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete group page permission",
+    "content_type": 23,
+    "codename": "delete_grouppagepermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can add page revision",
+    "content_type": 24,
+    "codename": "add_pagerevision"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can change page revision",
+    "content_type": 24,
+    "codename": "change_pagerevision"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can delete page revision",
+    "content_type": 24,
+    "codename": "delete_pagerevision"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can add page view restriction",
+    "content_type": 25,
+    "codename": "add_pageviewrestriction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can change page view restriction",
+    "content_type": 25,
+    "codename": "change_pageviewrestriction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can delete page view restriction",
+    "content_type": 25,
+    "codename": "delete_pageviewrestriction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 26,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 26,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 26,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add collection",
+    "content_type": 27,
+    "codename": "add_collection"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change collection",
+    "content_type": 27,
+    "codename": "change_collection"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete collection",
+    "content_type": 27,
+    "codename": "delete_collection"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can add group collection permission",
+    "content_type": 28,
+    "codename": "add_groupcollectionpermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can change group collection permission",
+    "content_type": 28,
+    "codename": "change_groupcollectionpermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can delete group collection permission",
+    "content_type": 28,
+    "codename": "delete_groupcollectionpermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can add collection view restriction",
+    "content_type": 29,
+    "codename": "add_collectionviewrestriction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can change collection view restriction",
+    "content_type": 29,
+    "codename": "change_collectionviewrestriction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can delete collection view restriction",
+    "content_type": 29,
+    "codename": "delete_collectionviewrestriction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can add Tag",
+    "content_type": 30,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can change Tag",
+    "content_type": 30,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can delete Tag",
+    "content_type": 30,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 89,
+  "fields": {
+    "name": "Can add Tagged Item",
+    "content_type": 31,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 90,
+  "fields": {
+    "name": "Can change Tagged Item",
+    "content_type": 31,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 91,
+  "fields": {
+    "name": "Can delete Tagged Item",
+    "content_type": 31,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 92,
+  "fields": {
+    "name": "Can add flat menu",
+    "content_type": 32,
+    "codename": "add_flatmenu"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 93,
+  "fields": {
+    "name": "Can change flat menu",
+    "content_type": 32,
+    "codename": "change_flatmenu"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 94,
+  "fields": {
+    "name": "Can delete flat menu",
+    "content_type": 32,
+    "codename": "delete_flatmenu"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 95,
+  "fields": {
+    "name": "Can add menu item",
+    "content_type": 33,
+    "codename": "add_flatmenuitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 96,
+  "fields": {
+    "name": "Can change menu item",
+    "content_type": 33,
+    "codename": "change_flatmenuitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 97,
+  "fields": {
+    "name": "Can delete menu item",
+    "content_type": 33,
+    "codename": "delete_flatmenuitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 98,
+  "fields": {
+    "name": "Can add main menu",
+    "content_type": 34,
+    "codename": "add_mainmenu"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 99,
+  "fields": {
+    "name": "Can change main menu",
+    "content_type": 34,
+    "codename": "change_mainmenu"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 100,
+  "fields": {
+    "name": "Can delete main menu",
+    "content_type": 34,
+    "codename": "delete_mainmenu"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 101,
+  "fields": {
+    "name": "Can add menu item",
+    "content_type": 35,
+    "codename": "add_mainmenuitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 102,
+  "fields": {
+    "name": "Can change menu item",
+    "content_type": 35,
+    "codename": "change_mainmenuitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 103,
+  "fields": {
+    "name": "Can delete menu item",
+    "content_type": 35,
+    "codename": "delete_mainmenuitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 104,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 36,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 105,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 36,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 106,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 36,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 107,
+  "fields": {
+    "name": "Can add Category",
+    "content_type": 37,
+    "codename": "add_blogcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 108,
+  "fields": {
+    "name": "Can change Category",
+    "content_type": 37,
+    "codename": "change_blogcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 109,
+  "fields": {
+    "name": "Can delete Category",
+    "content_type": 37,
+    "codename": "delete_blogcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 110,
+  "fields": {
+    "name": "Can add blog page",
+    "content_type": 38,
+    "codename": "add_blogpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 111,
+  "fields": {
+    "name": "Can change blog page",
+    "content_type": 38,
+    "codename": "change_blogpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 112,
+  "fields": {
+    "name": "Can delete blog page",
+    "content_type": 38,
+    "codename": "delete_blogpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 113,
+  "fields": {
+    "name": "Can add blog page tag",
+    "content_type": 39,
+    "codename": "add_blogpagetag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 114,
+  "fields": {
+    "name": "Can change blog page tag",
+    "content_type": 39,
+    "codename": "change_blogpagetag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 115,
+  "fields": {
+    "name": "Can delete blog page tag",
+    "content_type": 39,
+    "codename": "delete_blogpagetag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 116,
+  "fields": {
+    "name": "Can add landing page",
+    "content_type": 40,
+    "codename": "add_landingpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 117,
+  "fields": {
+    "name": "Can change landing page",
+    "content_type": 40,
+    "codename": "change_landingpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 118,
+  "fields": {
+    "name": "Can delete landing page",
+    "content_type": 40,
+    "codename": "delete_landingpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 119,
+  "fields": {
+    "name": "Can add post page",
+    "content_type": 41,
+    "codename": "add_postpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 120,
+  "fields": {
+    "name": "Can change post page",
+    "content_type": 41,
+    "codename": "change_postpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 121,
+  "fields": {
+    "name": "Can delete post page",
+    "content_type": 41,
+    "codename": "delete_postpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 122,
+  "fields": {
+    "name": "Can add form field",
+    "content_type": 42,
+    "codename": "add_formfield"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 123,
+  "fields": {
+    "name": "Can change form field",
+    "content_type": 42,
+    "codename": "change_formfield"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 124,
+  "fields": {
+    "name": "Can delete form field",
+    "content_type": 42,
+    "codename": "delete_formfield"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 125,
+  "fields": {
+    "name": "Can add form page",
+    "content_type": 43,
+    "codename": "add_formpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 126,
+  "fields": {
+    "name": "Can change form page",
+    "content_type": 43,
+    "codename": "change_formpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 127,
+  "fields": {
+    "name": "Can delete form page",
+    "content_type": 43,
+    "codename": "delete_formpage"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Moderators",
+    "permissions": [
+      4,
+      5,
+      6,
+      7,
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Editors",
+    "permissions": [
+      4,
+      5,
+      6,
+      7,
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 1,
+  "fields": {
+    "group": 1,
+    "page": 1,
+    "permission_type": "add"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 2,
+  "fields": {
+    "group": 1,
+    "page": 1,
+    "permission_type": "edit"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 3,
+  "fields": {
+    "group": 1,
+    "page": 1,
+    "permission_type": "publish"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 4,
+  "fields": {
+    "group": 2,
+    "page": 1,
+    "permission_type": "add"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 5,
+  "fields": {
+    "group": 2,
+    "page": 1,
+    "permission_type": "edit"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 6,
+  "fields": {
+    "group": 1,
+    "page": 1,
+    "permission_type": "lock"
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 1,
+  "fields": {
+    "group": 1,
+    "collection": 1,
+    "permission": 1
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 2,
+  "fields": {
+    "group": 2,
+    "collection": 1,
+    "permission": 1
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 3,
+  "fields": {
+    "group": 1,
+    "collection": 1,
+    "permission": 2
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 4,
+  "fields": {
+    "group": 2,
+    "collection": 1,
+    "permission": 2
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 5,
+  "fields": {
+    "group": 1,
+    "collection": 1,
+    "permission": 5
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 6,
+  "fields": {
+    "group": 2,
+    "collection": 1,
+    "permission": 5
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 7,
+  "fields": {
+    "group": 1,
+    "collection": 1,
+    "permission": 6
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 8,
+  "fields": {
+    "group": 2,
+    "collection": 1,
+    "permission": 6
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "argon2$argon2i$v=19$m=512,t=2,p=2$cFl4UVdydmFMcTRo$id7DbnH9kXaJfTGW6Sc4Uw",
+    "last_login": "2018-12-30T13:48:34.863Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@test.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2018-12-30T13:48:23.488Z",
+    "name": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "blog.blogpage",
+  "pk": 3,
+  "fields": {
+    "description": ""
+  }
+},
+{
+  "model": "blog.postpage",
+  "pk": 4,
+  "fields": {
+    "body": "= Step 1: Installation & Getting Started\r\nBurr Sutter <burrsuter@gmail.com>\r\n\r\nifndef::codedir[:codedir: code]\r\nifndef::imagesdir[:imagesdir: images]\r\n\r\nCreate and change into a directory where you would like to work.\r\n\r\n== Setup\r\n\r\nOpenShift is Red Hat's distribution of Kubernetes \r\n\r\nminikube and minishift are essentially equivalent and will be used for the demonstrations/examples below.\r\n\r\nThese instructions are primarily for Linux & MacOS.  At some point, I do hope to find the time translate them to Windows PowerShell.  \r\nThese instructions have NOT been tested well on Windows Bash.\r\n\r\n=== Prerequisites\r\n* Docker for Mac/Windows\r\n* bash shell\r\n* git\r\n* JDK \r\n* Apache Maven (compilation of Java projects)\r\n* curl, tar\r\n* Homebrew for Mac - \"brew install stern\"\r\n* minikube and/or minishift will be downloaded below\r\n* kubectl and/or oc will be downloaded below\r\n\r\n=== Downloads\r\nDownload & Install Kubernetes CLI\r\n[source,bash]\r\n----\r\n# MacOS\r\n$ curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.12.0/bin/darwin/amd64/kubectl \r\n# \r\n$ chmod +x kubectl\r\n# or\r\n$ brew install kubernetes-cli\r\n----\r\nLinux & Windows instructions for finding and downloading the a kubectl \r\nhttps://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl\r\n\r\nDownload & Install Minikube Cluster\r\n[source,bash]\r\n----\r\n$ curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.29.0/minikube-darwin-amd64\r\n$ chmod +x minikube \r\n# or\r\n$ brew cask install minikube\r\n# if you don't have VirtualBox installed\r\n$ brew cask install virtualbox\r\n----\r\nMore Minikube releases https://github.com/kubernetes/minikube/releases\r\n\r\nOR\r\n\r\nDownload & Install Minishift Cluster\r\n[source,bash]\r\n----\r\n$ curl -LO https://github.com/minishift/minishift/releases/download/v1.24.0/minishift-1.24.0-darwin-amd64.tgz\r\n$ tar -xvf minishift-1.24.0-darwin-amd64.tgz \r\n----\r\nMore Minishift releases https://github.com/minishift/minishift/releases\r\n\r\nNote: \"minikube\" should be interchangeable with \"minishift\" in the instructions below, if there is a unique aspect then that will be called out.  \r\n\r\n\r\n=== Environment\r\n[source,bash]\r\n----\r\n#!/bin/bash\r\n\r\nexport MINIKUBE_HOME=/Users/burrsutter/minikube_0.29.0/bin;\r\nexport PATH=$MINIKUBE_HOME:$PATH\r\n----\r\n\r\n[source,bash]\r\n----\r\n$ minikube version\r\nminikube version: v0.29.0\r\n# or\r\n$ minishift version\r\nminishift v1.24.0+8a904d0\r\n----\r\n\r\n=== Create the VM\r\n[source,bash]\r\n----\r\n#!/bin/bash\r\n\r\nminikube config set memory 6144\r\nminikube config set cpus 2 <1>\r\nminikube config set vm-driver virtualbox #hyperkit <2>\r\n# minishift addon enable admin-user <3>\r\n# minishift addon enable anyuid <4>\r\nminikube start\r\n----\r\n<1> I use 2 cpus here because I have 6 core laptop.  Keep this number at or below 50% of overall laptop resources.\r\nThere is nothing in this series of exercises that is CPU intensive but minishift has a 10 pod per core limit.\r\n<2> I use virtualbox because it is available on all platforms.  There a number of hypervisor options\r\nhttps://kubernetes.io/docs/tasks/tools/install-minikube/#install-a-hypervisor\r\n<3> Minishift is secured by default, this creates an cluster \"admin\" user\r\n\r\nNote: with 1.24, I have seen this command fail, the workaround is to wait until minishift start completes then use\r\n\"minishift addons apply admin-user\"\r\n\r\n<4> A mechanism on OpenShift that allows the execution of an image with any user id, including root.\r\nhttps://github.com/burrsutter/9stepsawesome/issues/3\r\n\r\nNote: with 1.24, I have seen this command fail, the workaround is to wait until minishift start completes then use\r\n\"minishift addons apply anyuid\"\r\n\r\n.VirtualBox UI\r\nimage::virtualbox_ui.png[VirtualBox]\r\n\r\n\r\n=== Check status, IP & Dashboard/Console\r\n----\r\n$ minikube config view\r\n- cpus: 2\r\n- memory: 6144\r\n- vm-driver: virtualbox\r\n$ minikube status\r\nminikube: Running\r\ncluster: Running\r\nkubectl: Correctly Configured: pointing to minikube-vm at 192.168.99.103\r\n$ minikube ip\r\n192.168.99.103\r\n$ minikube dashboard --url\r\nhttp://192.168.99.103:30000\r\n$ minikube dashboard\r\n----\r\n\r\n.minikube dashboard\r\nimage::minikube_dashboard.png[Minikube Dashboard]\r\n\r\n.minishift dashboard\r\nimage::openshift_dashboard.png[Minishift Dashboard]\r\n\r\n\r\n\r\n=== Check your kubectl CLI\r\n----\r\n$ kubectl config current-context\r\nminikube\r\n# or in the case of minishift\r\n# /192-168-99-102:8443/admin\r\n\r\n$ kubectl version\r\nClient Version: version.Info{Major:\"1\", Minor:\"12\", GitVersion:\"v1.12.0\", GitCommit:\"0ed33881dc4355495f623c6f22e7dd0b7632b7c0\", GitTreeState:\"clean\", BuildDate:\"2018-09-27T17:05:32Z\", GoVersion:\"go1.10.4\", Compiler:\"gc\", Platform:\"darwin/amd64\"}\r\nServer Version: version.Info{Major:\"1\", Minor:\"10\", GitVersion:\"v1.10.0\", GitCommit:\"fc32d2f3698e36b93322a3465f63a14e9f0eaead\", GitTreeState:\"clean\", BuildDate:\"2018-03-26T16:44:10Z\", GoVersion:\"go1.9.3\", Compiler:\"gc\", Platform:\"linux/amd64\"}\r\n----\r\nand if needed, point kubectl back at minikube with \"kubectl config use-context minikube\"\r\n\r\nAlso, there is a cool tool that makes switching between Kubernetes clusters and the context a lot easier\r\nhttps://github.com/ahmetb/kubectx\r\n\r\n----\r\nbrew install kubectx\r\n----\r\n\r\n=== Namespaces & Pods\r\n----\r\n$ kubectl get namespaces\r\n\r\n$ kubectl get pod --all-namespaces\r\n----\r\n\r\n=== Configure Env for Docker \r\n----\r\n$ minikube docker-env\r\nexport DOCKER_TLS_VERIFY=\"1\"\r\nexport DOCKER_HOST=\"tcp://192.168.99.103:2376\"\r\nexport DOCKER_CERT_PATH=\"/Users/burrsutter/minikube_0.28.1/bin/.minikube/certs\"\r\nexport DOCKER_API_VERSION=\"1.35\"\r\n# or\r\n$ eval $(minikube docker-env)\r\n# and\r\n# eval $(minishift oc-env) <1>\r\n----\r\n<1> This command puts the \"oc\" CLI tool in your PATH\r\n\r\n=== Using Docker CLI \r\n----\r\n$ docker ps\r\n$ docker images\r\n----\r\nThese commands should now be pulling from your minikube/minishift hosted docker daemon.  You can turn off the Docker for Mac/Windows daemon to save memory.\r\n\r\n\r\n=== Minikube/Minishift Happy?\r\n----\r\n$ minikube ssh <1>\r\n$ free -h\r\n$ df -h\r\n$ top\r\n$ ctrl-c\r\n$ exit\r\n----\r\n<1> you can shell into your VM and check on resources\r\n\r\n== Hello World\r\n\r\nMinishift is secured by default and requires you to login\r\n\r\n----\r\n$ oc login $(minishift ip):8443 -u admin -p admin\r\n----\r\n\r\nThe \"default\" namespace should already be the current context, but setting it here to make it obvious\r\n\r\n----\r\n$ kubectl config set-context $(kubectl config current-context) --namespace=default\r\n# or\r\n$ kubens default #kubens comes with the kubectx tool\r\n----\r\n\r\nThe command \"kubectl run\" is the fastest way to deploy a pod (think linux container). It is useful during development but NOT recommended for production\r\n----\r\n$ kubectl run hello-minikube --image=k8s.gcr.io/echoserver:1.10 --port=8080\r\n----\r\n\r\nIt produces a Deployment\r\n----\r\n$ kubectl get deployments\r\nNAME             DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE\r\nhello-minikube   1         1         1            1           7s\r\n----\r\n\r\nwhich produces a Pod\r\n----\r\n$ kubectl get pods\r\nNAME                              READY     STATUS    RESTARTS   AGE\r\nhello-minikube-7c77b68cff-2xcpp   1/1       Running   0          27s\r\n\r\n# Tip, if you can not find your pod, perhaps it is in another namespace\r\n$ kubectl get pods --all-namespaces\r\n\r\n# and it can be fun to see what labels were applied to your pod\r\n$ kubectl get pods --show-labels\r\n----\r\n\r\nYou create a Service\r\n----\r\n$ kubectl expose deployment hello-minikube --type=NodePort\r\nservice \"hello-minikube\" exposed\r\n----\r\n\r\nand see that newly minted Service object\r\n----\r\n$ kubectl get service\r\nNAME             TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE\r\nhello-minikube   NodePort    10.97.139.177   <none>        8080:32403/TCP   20s\r\nkubernetes       ClusterIP   10.96.0.1       <none>        443/TCP           1h\r\n----\r\n\r\nYou can find the Service's URL \r\n----\r\n$ minikube service hello-minikube --url\r\nhttp://192.168.99.103:32403\r\n# and curl it\r\n$ curl $(minikube service hello-minikube --url)\r\n----\r\nor just load up the URL in your favorite browser\r\nhttps://screencast.com/t/k5GVJlfg\r\n\r\nNote: minishift has a slightly different variant on the \"service\" command\r\n----\r\n$ minishift openshift service hello-minikube --url\r\n# and curl it\r\n$ curl $(minishift openshift service hello-minikube --url)\r\n----\r\n\r\nThe Deployment that was generated via your \"kubectl run\" commamnd actually has a bunch of interesting defaults\r\n----\r\n$ kubectl describe deployment hello-minikube\r\nName:                   hello-minikube\r\nNamespace:              default\r\nCreationTimestamp:      Sun, 29 Jul 2018 15:21:38 -0400\r\nLabels:                 run=hello-minikube\r\nAnnotations:            deployment.kubernetes.io/revision=1\r\nSelector:               run=hello-minikube\r\nReplicas:               1 desired | 1 updated | 1 total | 1 available | 0 unavailable\r\nStrategyType:           RollingUpdate\r\nMinReadySeconds:        0\r\nRollingUpdateStrategy:  1 max unavailable, 1 max surge\r\nPod Template:\r\n  Labels:  run=hello-minikube\r\n  Containers:\r\n   hello-minikube:\r\n    Image:        k8s.gcr.io/echoserver:1.10\r\n    Port:         8080/TCP\r\n    Host Port:    0/TCP\r\n    Environment:  <none>\r\n    Mounts:       <none>\r\n  Volumes:        <none>\r\nConditions:\r\n  Type           Status  Reason\r\n  ----           ------  ------\r\n  Available      True    MinimumReplicasAvailable\r\n  Progressing    True    NewReplicaSetAvailable\r\nOldReplicaSets:  <none>\r\nNewReplicaSet:   hello-minikube-7c77b68cff (1/1 replicas created)\r\nEvents:\r\n  Type    Reason             Age   From                   Message\r\n  ----    ------             ----  ----                   -------\r\n  Normal  ScalingReplicaSet  5m    deployment-controller  Scaled up replica set hello-minikube-7c77b68cff to 1\r\n----\r\n\r\nbut that is beyond the scope of simply getting started, just remember the \"kubectl describe <object>\" trick for future reference.\r\n\r\nAnother key tip to remember, is \"get all\" which is useful for seeing what other objects might be floating around\r\n----\r\n$ kubectl get all \r\n# or with -n mynamespace\r\n$ kubectl get all -n default\r\n----\r\n \r\n=== Clean up\r\n----\r\n$ kubectl delete service hello-minikube\r\n\r\n$ kubectl delete deployment hello-minikube\r\n----\r\nAnd you will notice that the pod also terminates. In another terminal window, use the -w to watch as the pod changes state\r\n\r\n----\r\n$ kubectl get pods -w\r\nNAME                              READY     STATUS    RESTARTS   AGE\r\nhello-minikube-7c77b68cff-2xcpp   1/1       Running   0          8m\r\nhello-minikube-7c77b68cff-2xcpp   1/1       Terminating   0         9m\r\nhello-minikube-7c77b68cff-2xcpp   0/1       Terminating   0         9m\r\n----\r\nUse Ctrl-c to stop watching pods\r\n\r\nYou can shutdown the VM to save resources when not in use\r\n----\r\n$ minikube stop\r\n# go about your business, come back later and\r\n$ minikube start\r\n----\r\n\r\nand if you need to wipe out the VM entirely\r\n----\r\n$ minikube delete\r\n----\r\n\r\nYour minikube configuration goes in a hidden directory at\r\n----\r\n$MINIKUBE_HOME/.minikube/machines/minikube/config.json \r\n----\r\n\r\nand your kubectl configuration goes in a different hidden directory at\r\n----\r\n$HOME/.kube/config\r\n----\r\nand if things go really badly, you might need to wipe out those directories\r\n----\r\n$ rm -rf ~/.kube\r\n$ rm -rf $MINIKUBE_HOME/.minikube\r\n----\r\n\r\n== More resources\r\nhttps://github.com/kubernetes/minikube#installation\r\n\r\nhttps://kubernetes.io/docs/setup/minikube/#quickstart\r\nincluding proxy challenges\r\n\r\n*Hyperkit for Mac*\r\n\r\nhttps://github.com/kubernetes/minikube/blob/master/docs/drivers.md#hyperkit-driver\r\n\r\n*Node.js tutorial*\r\n\r\nhttps://kubernetes.io/docs/tutorials/hello-minikube/\r\n\r\n*Dealing with multiple clusters*\r\n\r\nhttps://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/#define-clusters-users-and-contexts",
+    "date": "2018-12-31T07:05:00Z",
+    "excerpt": "OpenShift is Red Hat's distribution of Kubernetes \r\n\r\nminikube and minishift are essentially equivalent and will be used for the demonstrations/examples below.\r\n\r\nThese instructions are primarily for Linux & MacOS.  At some point, I do hope to find the time translate them to Windows PowerShell.  \r\nThese instructions have NOT been tested well on Windows Bash.",
+    "header_image": 1,
+    "categories": []
+  }
+},
+{
+  "model": "blog.postpage",
+  "pk": 5,
+  "fields": {
+    "body": "= Step 2: Building Images & Running Containers\r\nBurr Sutter <burrsutter@gmail.com>\r\n\r\nifndef::codedir[:codedir: kubefiles]\r\nifndef::imagesdir[:imagesdir: images]\r\n\r\n== Namespaces\r\nThe resources (your apps) you create can be organized into namespaces which are particularly helpful when dealing with a larger team.\r\n\r\nYou can create a namespace via simple command\r\n----\r\n$ kubectl create namespace demo\r\n$ kubectl get namespaces\r\nNAME          STATUS    AGE\r\ndefault       Active    22h\r\ndemo          Active    6m\r\nkube-public   Active    21h\r\nkube-system   Active    22h\r\n----\r\n\r\nThe -o yaml trick is a great way to see what the command created\r\n\r\n----\r\n$ kubectl get namespace/demo -o yaml\r\napiVersion: v1\r\nkind: Namespace\r\nmetadata:\r\n  creationTimestamp: 2018-07-29T22:27:27Z\r\n  name: demo\r\n  resourceVersion: \"21330\"\r\n  selfLink: /api/v1/namespaces/demo\r\n  uid: 92a63dee-937e-11e8-9a0f-080027cd86aa\r\nspec:\r\n  finalizers:\r\n  - kubernetes\r\nstatus:\r\n  phase: Active\r\n----\r\n\r\nYou can also use the \r\n----\r\nkubectl get namespace/demo --export -o yaml \r\n----\r\nfor something cleaner, something you might store and use later with kubectl apply -f\r\n\r\n\r\nDeleting a Namespace is also available via command\r\n\r\n----\r\n$ kubectl delete namespace/demo \r\n----\r\n\r\nYour objects should be created via a file that can be checked into source control.  Create a Namespace via yaml.\r\n\r\n----\r\n$ kubectl create -f kubefiles/myspace-namespace.yml # <1>\r\n$ kubectl config set-context minikube --namespace=myspace # <2>\r\n# or if you are using minishift and oc, there is a shortcut\r\n$ oc project myspace\r\n# or if you installed kubectx, try\r\n# kubens myspace\r\n----\r\n<1> Using the yaml allows you to place this file in a source repository\r\n<2> The setting of the context means you have to type -n myspace less often.  Also, when using Minishift,\r\n\"oc project myspace\" is the equivalent command. In OpenShift projects = namespaces. \r\n\r\n[source,yaml,subs=\"normal,attributes\"]\r\n----\r\ninclude::kubefiles/myspace-namespace.yml[]\r\n----\r\n\r\nYou can confirm your context with\r\n----\r\n$ kubectl config view --minify --template '{{ index .contexts 0 \"context\" \"namespace\" }}'\r\n# of if you are using minishift and oc then there is a handy shortcut\r\n$ oc project\r\n# or you can use kubens tool which comes with kubectx (brew install kubectx)\r\n$ kubens\r\n\r\n----\r\n\r\n== Code\r\nNow that you have a Namespace, you need to craft some code\r\n\r\nThe \"hello\" directory contains several \"hello world\" style projects.  Let's use SpringBoot and run a quick test of the endpoint.\r\n\r\n----\r\n$ cd hello/springboot\r\n$ mvn clean package\r\n$ java -jar target/boot-demo-0.0.1.jar\r\n$ curl localhost:8080\r\n----\r\n\r\nNext create the docker image, first double check that you are still connected to the correct Docker daemon\r\n\r\n----\r\n$ docker images | grep 9steps\r\n$ docker build -t 9stepsawesome/myboot:v1 .\r\n----\r\n\r\nTest that docker image\r\n----\r\n$ minikube ip\r\n$ docker run -it -p 8080:8080 9stepsawesome/myboot:v1 \r\n$ curl $(minikube ip):8080\r\n----\r\n\r\nSince the docker container is running \"inside\" the minikube/minishift VM, you need to use its IP address\r\nctrl-c to terminate the Spring Boot process and its docker container.\r\n\r\n\r\n== Deployment\r\n\r\nNext, deploy it as a pod inside of Kubernetes/OpenShift.  You could use the \"kubectl run\" command but here we will use a Deployment\r\n----\r\n$ kubectl create -f kubefiles/myboot-deployment.yml\r\n----\r\n\r\nAnd then see what happened\r\n----\r\n$ kubectl get all\r\nNAME                          READY     STATUS    RESTARTS   AGE\r\npod/myboot-79bfc988c8-ttz5r   1/1       Running   0          25s\r\n\r\nNAME                     DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE\r\ndeployment.apps/myboot   1         1         1            1           25s\r\n\r\nNAME                                DESIRED   CURRENT   READY     AGE\r\nreplicaset.apps/myboot-79bfc988c8   1         1         1         25s\r\n----\r\n\r\n== Service\r\n\r\nCreate a Service\r\n----\r\n$ kubectl create -f kubefiles/myboot-service.yml \r\n----\r\n\r\nGet the nodePort\r\n----\r\n$ kubectl get service/myboot -o jsonpath=\"{.spec.ports[*].nodePort}\"\r\n----\r\n\r\nCurl that url + nodePort\r\n----\r\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\"{.spec.ports[*].nodePort}\")\r\n----\r\n\r\nPerhaps build a little loop to curl that endpoint\r\n[source, bash]\r\n----\r\nwhile true\r\ndo \r\n  curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\"{.spec.ports[*].nodePort}\")\r\n  sleep .5;\r\ndone\r\n----\r\n\r\n== Scale\r\n\r\nLet's scale up the application to 3 replicas, there are several possible ways to achieve this result.\r\n\r\nYou can edit the myboot-deployment.yml, updating replicas to 3\r\n----\r\n$ kubectl replace -f kubefiles/myboot-deployment.yml\r\n----\r\n\r\nOr use the kubectl scale command\r\n----\r\n$ kubectl scale --replicas=3 deployment/myboot\r\n----\r\n\r\nOr you might patch it\r\n----\r\n$ kubectl patch deployment/myboot -p '{\"spec\":{\"replicas\":3}}'\r\n----\r\n\r\nOr use the kubectl edit command which essentially gives you \"vi\" for editing the deployment yaml\r\n----\r\n$ kubectl edit deployment/myboot\r\n/replicas\r\nesc-w-q\r\n----\r\n\r\nYou can then use \"kubectl get pods\" to see the pods that have been created\r\n----\r\n$ kubectl get pods\r\n----\r\n\r\nNote: 3 pods might push you out of your memory limits for your VM.  Check your memory usage with:\r\n----\r\n$ minishift ssh\r\n# or\r\n$ minikube ssh\r\n$ free -m\r\n$ top -o %MEM\r\n----\r\n\r\n== Update\r\n\r\nUpdate MyRESTController.java\r\n----\r\ngreeting = environment.getProperty(\"GREETING\",\"Bonjour\");\r\n----\r\n\r\nCompile & Build the fat jar\r\n----\r\nmvn clean package\r\n----\r\n\r\nYou can test with \"java -jar target/boot-demo-0.0.1.jar\" and \"curl localhost:8080\".  Ideally, you would have unit tests executed with \"mvn test\" as well.\r\n\r\nBuild the new docker image with a v2 tag\r\n----\r\n$ docker build -t 9stepsawesome/myboot:v2 .\r\n$ docker images | grep myboot\r\n----\r\n\r\nRollout the update\r\n----\r\n$ kubectl set image deployment/myboot myboot=9stepsawesome/myboot:v2\r\n----\r\n\r\nAnd if you were running your polling curl command, you might see\r\n----\r\nAloha from Spring Boot! 346 on myboot-79bfc988c8-ttz5r\r\nAloha from Spring Boot! 270 on myboot-79bfc988c8-ntb8d\r\nAloha from Spring Boot! 348 on myboot-79bfc988c8-ttz5r\r\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\r\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\r\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\r\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\r\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\r\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\r\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\r\nBonjour from Spring Boot! 0 on myboot-757658fc4c-qnvqx\r\nBonjour from Spring Boot! 1 on myboot-5955897c9b-zthj9\r\n----\r\n\r\nWe will be working on those errors when we address Liveness and Readiness probes in Step 7\r\n\r\nFor now, undo the update, going back to v1\r\n\r\n----\r\n$ kubectl rollout undo deployment/myboot \r\n----\r\n\r\nScale to 1\r\n----\r\n$ kubectl scale --replicas=1 deployment/myboot\r\n----\r\n\r\nHit the sysresources endpoint\r\n----\r\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\"{.spec.ports[*].nodePort}\")/sysresources\r\n Memory: 1324 Cores: 2\r\n----\r\n\r\nNote: you can use echo to see what this URL really looks like on your machine\r\n----\r\n$ echo $(minikube ip):$(kubectl get service/myboot -o jsonpath=\"{.spec.ports[*].nodePort}\")/sysresources\r\n192.168.99.105:30479/sysresources\r\n----\r\n\r\nThe results of the \"sysresources\" call should be about 1/4 memory and all the cores that were configured for the VM.  You can double check this with the following command:\r\n\r\n----\r\n$ minikube config view\r\n- cpus: 2\r\n- memory: 6144\r\n- vm-driver: virtualbox\r\n----\r\n\r\nNow, let's apply resource contraints via Kubernetes & deployment yaml.  Look at myboot-deployment-resources.yml\r\n\r\n----\r\n$ kubectl replace -f kubefiles/myboot-deployment-resources.yml \r\n----\r\n\r\nCurl sysresources again\r\n----\r\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\"{.spec.ports[*].nodePort}\")/sysresources\r\nMemory: 1324 Cores: 2\r\n----\r\n\r\nIn another terminal window, watch the pods\r\n----\r\n$ kubectl get pods -w\r\n----\r\n\r\nand now curl the consume endpoint\r\n----\r\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\"{.spec.ports[*].nodePort}\")/consume\r\n----\r\n\r\nand you should see a OOMKilled\r\n----\r\n$ kubectl get pods -w\r\nNAME                      READY     STATUS    RESTARTS   AGE\r\nmyboot-68d666dd8d-m9m5r   1/1       Running   0          1m\r\nmyboot-68d666dd8d-m9m5r   0/1       OOMKilled   0         2m\r\nmyboot-68d666dd8d-m9m5r   1/1       Running   1         2m\r\n----\r\n\r\nAnd you can also see the OOMKilled with the kubectl describe command\r\n----\r\n$ kubectl describe pod -l app=myboot\r\n...\r\n    Last State:     Terminated\r\n      Reason:       OOMKilled\r\n      Exit Code:    137\r\n      Started:      Tue, 31 Jul 2018 13:42:18 -0400\r\n      Finished:     Tue, 31 Jul 2018 13:44:24 -0400\r\n    Ready:          True\r\n    Restart Count:  1\r\n...\r\n----\r\n\r\nMystery to be solved in future steps!",
+    "date": "2018-12-31T07:30:00Z",
+    "excerpt": "The resources (your apps) you create can be organized into namespaces which are particularly helpful when dealing with a larger team.\r\n\r\nYou can create a namespace via simple command",
+    "header_image": 2,
+    "categories": []
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 1,
+  "fields": {
+    "page": 2,
+    "submitted_for_moderation": false,
+    "created_at": "2018-12-30T13:48:51.967Z",
+    "user": 1,
+    "content_json": "{\"pk\": 2, \"path\": \"00010001\", \"depth\": 2, \"numchild\": 0, \"title\": \"Root\", \"draft_title\": \"Welcome to your new Wagtail site!\", \"slug\": \"root\", \"content_type\": 1, \"live\": true, \"has_unpublished_changes\": false, \"url_path\": \"/home/\", \"owner\": null, \"seo_title\": \"\", \"show_in_menus\": false, \"search_description\": \"\", \"go_live_at\": null, \"expire_at\": null, \"expired\": false, \"locked\": false, \"first_published_at\": null, \"last_published_at\": null, \"latest_revision_created_at\": null, \"live_revision\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 2,
+  "fields": {
+    "page": 3,
+    "submitted_for_moderation": false,
+    "created_at": "2018-12-30T13:49:10.319Z",
+    "user": 1,
+    "content_json": "{\"pk\": 3, \"path\": \"00010002\", \"depth\": 2, \"numchild\": 0, \"title\": \"Blog\", \"draft_title\": \"Blog\", \"slug\": \"blog\", \"content_type\": 38, \"live\": true, \"has_unpublished_changes\": false, \"url_path\": \"/blog/\", \"owner\": 1, \"seo_title\": \"\", \"show_in_menus\": false, \"search_description\": \"\", \"go_live_at\": null, \"expire_at\": null, \"expired\": false, \"locked\": false, \"first_published_at\": null, \"last_published_at\": null, \"latest_revision_created_at\": null, \"live_revision\": null, \"description\": \"\"}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 3,
+  "fields": {
+    "page": 4,
+    "submitted_for_moderation": false,
+    "created_at": "2018-12-31T07:09:18.997Z",
+    "user": 1,
+    "content_json": "{\"pk\": 4, \"path\": \"000100020001\", \"depth\": 3, \"numchild\": 0, \"title\": \"First blog post\", \"draft_title\": \"First blog post\", \"slug\": \"first-blog-post\", \"content_type\": 41, \"live\": false, \"has_unpublished_changes\": false, \"url_path\": \"/blog/first-blog-post/\", \"owner\": 1, \"seo_title\": \"\", \"show_in_menus\": false, \"search_description\": \"\", \"go_live_at\": null, \"expire_at\": null, \"expired\": false, \"locked\": false, \"first_published_at\": null, \"last_published_at\": null, \"latest_revision_created_at\": null, \"live_revision\": null, \"body\": \"= Step 1: Installation & Getting Started\\r\\nBurr Sutter <burrsuter@gmail.com>\\r\\n\\r\\nifndef::codedir[:codedir: code]\\r\\nifndef::imagesdir[:imagesdir: images]\\r\\n\\r\\nCreate and change into a directory where you would like to work.\\r\\n\\r\\n== Setup\\r\\n\\r\\nOpenShift is Red Hat's distribution of Kubernetes \\r\\n\\r\\nminikube and minishift are essentially equivalent and will be used for the demonstrations/examples below.\\r\\n\\r\\nThese instructions are primarily for Linux & MacOS.  At some point, I do hope to find the time translate them to Windows PowerShell.  \\r\\nThese instructions have NOT been tested well on Windows Bash.\\r\\n\\r\\n=== Prerequisites\\r\\n* Docker for Mac/Windows\\r\\n* bash shell\\r\\n* git\\r\\n* JDK \\r\\n* Apache Maven (compilation of Java projects)\\r\\n* curl, tar\\r\\n* Homebrew for Mac - \\\"brew install stern\\\"\\r\\n* minikube and/or minishift will be downloaded below\\r\\n* kubectl and/or oc will be downloaded below\\r\\n\\r\\n=== Downloads\\r\\nDownload & Install Kubernetes CLI\\r\\n[source,bash]\\r\\n----\\r\\n# MacOS\\r\\n$ curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.12.0/bin/darwin/amd64/kubectl \\r\\n# \\r\\n$ chmod +x kubectl\\r\\n# or\\r\\n$ brew install kubernetes-cli\\r\\n----\\r\\nLinux & Windows instructions for finding and downloading the a kubectl \\r\\nhttps://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl\\r\\n\\r\\nDownload & Install Minikube Cluster\\r\\n[source,bash]\\r\\n----\\r\\n$ curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.29.0/minikube-darwin-amd64\\r\\n$ chmod +x minikube \\r\\n# or\\r\\n$ brew cask install minikube\\r\\n# if you don't have VirtualBox installed\\r\\n$ brew cask install virtualbox\\r\\n----\\r\\nMore Minikube releases https://github.com/kubernetes/minikube/releases\\r\\n\\r\\nOR\\r\\n\\r\\nDownload & Install Minishift Cluster\\r\\n[source,bash]\\r\\n----\\r\\n$ curl -LO https://github.com/minishift/minishift/releases/download/v1.24.0/minishift-1.24.0-darwin-amd64.tgz\\r\\n$ tar -xvf minishift-1.24.0-darwin-amd64.tgz \\r\\n----\\r\\nMore Minishift releases https://github.com/minishift/minishift/releases\\r\\n\\r\\nNote: \\\"minikube\\\" should be interchangeable with \\\"minishift\\\" in the instructions below, if there is a unique aspect then that will be called out.  \\r\\n\\r\\n\\r\\n=== Environment\\r\\n[source,bash]\\r\\n----\\r\\n#!/bin/bash\\r\\n\\r\\nexport MINIKUBE_HOME=/Users/burrsutter/minikube_0.29.0/bin;\\r\\nexport PATH=$MINIKUBE_HOME:$PATH\\r\\n----\\r\\n\\r\\n[source,bash]\\r\\n----\\r\\n$ minikube version\\r\\nminikube version: v0.29.0\\r\\n# or\\r\\n$ minishift version\\r\\nminishift v1.24.0+8a904d0\\r\\n----\\r\\n\\r\\n=== Create the VM\\r\\n[source,bash]\\r\\n----\\r\\n#!/bin/bash\\r\\n\\r\\nminikube config set memory 6144\\r\\nminikube config set cpus 2 <1>\\r\\nminikube config set vm-driver virtualbox #hyperkit <2>\\r\\n# minishift addon enable admin-user <3>\\r\\n# minishift addon enable anyuid <4>\\r\\nminikube start\\r\\n----\\r\\n<1> I use 2 cpus here because I have 6 core laptop.  Keep this number at or below 50% of overall laptop resources.\\r\\nThere is nothing in this series of exercises that is CPU intensive but minishift has a 10 pod per core limit.\\r\\n<2> I use virtualbox because it is available on all platforms.  There a number of hypervisor options\\r\\nhttps://kubernetes.io/docs/tasks/tools/install-minikube/#install-a-hypervisor\\r\\n<3> Minishift is secured by default, this creates an cluster \\\"admin\\\" user\\r\\n\\r\\nNote: with 1.24, I have seen this command fail, the workaround is to wait until minishift start completes then use\\r\\n\\\"minishift addons apply admin-user\\\"\\r\\n\\r\\n<4> A mechanism on OpenShift that allows the execution of an image with any user id, including root.\\r\\nhttps://github.com/burrsutter/9stepsawesome/issues/3\\r\\n\\r\\nNote: with 1.24, I have seen this command fail, the workaround is to wait until minishift start completes then use\\r\\n\\\"minishift addons apply anyuid\\\"\\r\\n\\r\\n.VirtualBox UI\\r\\nimage::virtualbox_ui.png[VirtualBox]\\r\\n\\r\\n\\r\\n=== Check status, IP & Dashboard/Console\\r\\n----\\r\\n$ minikube config view\\r\\n- cpus: 2\\r\\n- memory: 6144\\r\\n- vm-driver: virtualbox\\r\\n$ minikube status\\r\\nminikube: Running\\r\\ncluster: Running\\r\\nkubectl: Correctly Configured: pointing to minikube-vm at 192.168.99.103\\r\\n$ minikube ip\\r\\n192.168.99.103\\r\\n$ minikube dashboard --url\\r\\nhttp://192.168.99.103:30000\\r\\n$ minikube dashboard\\r\\n----\\r\\n\\r\\n.minikube dashboard\\r\\nimage::minikube_dashboard.png[Minikube Dashboard]\\r\\n\\r\\n.minishift dashboard\\r\\nimage::openshift_dashboard.png[Minishift Dashboard]\\r\\n\\r\\n\\r\\n\\r\\n=== Check your kubectl CLI\\r\\n----\\r\\n$ kubectl config current-context\\r\\nminikube\\r\\n# or in the case of minishift\\r\\n# /192-168-99-102:8443/admin\\r\\n\\r\\n$ kubectl version\\r\\nClient Version: version.Info{Major:\\\"1\\\", Minor:\\\"12\\\", GitVersion:\\\"v1.12.0\\\", GitCommit:\\\"0ed33881dc4355495f623c6f22e7dd0b7632b7c0\\\", GitTreeState:\\\"clean\\\", BuildDate:\\\"2018-09-27T17:05:32Z\\\", GoVersion:\\\"go1.10.4\\\", Compiler:\\\"gc\\\", Platform:\\\"darwin/amd64\\\"}\\r\\nServer Version: version.Info{Major:\\\"1\\\", Minor:\\\"10\\\", GitVersion:\\\"v1.10.0\\\", GitCommit:\\\"fc32d2f3698e36b93322a3465f63a14e9f0eaead\\\", GitTreeState:\\\"clean\\\", BuildDate:\\\"2018-03-26T16:44:10Z\\\", GoVersion:\\\"go1.9.3\\\", Compiler:\\\"gc\\\", Platform:\\\"linux/amd64\\\"}\\r\\n----\\r\\nand if needed, point kubectl back at minikube with \\\"kubectl config use-context minikube\\\"\\r\\n\\r\\nAlso, there is a cool tool that makes switching between Kubernetes clusters and the context a lot easier\\r\\nhttps://github.com/ahmetb/kubectx\\r\\n\\r\\n----\\r\\nbrew install kubectx\\r\\n----\\r\\n\\r\\n=== Namespaces & Pods\\r\\n----\\r\\n$ kubectl get namespaces\\r\\n\\r\\n$ kubectl get pod --all-namespaces\\r\\n----\\r\\n\\r\\n=== Configure Env for Docker \\r\\n----\\r\\n$ minikube docker-env\\r\\nexport DOCKER_TLS_VERIFY=\\\"1\\\"\\r\\nexport DOCKER_HOST=\\\"tcp://192.168.99.103:2376\\\"\\r\\nexport DOCKER_CERT_PATH=\\\"/Users/burrsutter/minikube_0.28.1/bin/.minikube/certs\\\"\\r\\nexport DOCKER_API_VERSION=\\\"1.35\\\"\\r\\n# or\\r\\n$ eval $(minikube docker-env)\\r\\n# and\\r\\n# eval $(minishift oc-env) <1>\\r\\n----\\r\\n<1> This command puts the \\\"oc\\\" CLI tool in your PATH\\r\\n\\r\\n=== Using Docker CLI \\r\\n----\\r\\n$ docker ps\\r\\n$ docker images\\r\\n----\\r\\nThese commands should now be pulling from your minikube/minishift hosted docker daemon.  You can turn off the Docker for Mac/Windows daemon to save memory.\\r\\n\\r\\n\\r\\n=== Minikube/Minishift Happy?\\r\\n----\\r\\n$ minikube ssh <1>\\r\\n$ free -h\\r\\n$ df -h\\r\\n$ top\\r\\n$ ctrl-c\\r\\n$ exit\\r\\n----\\r\\n<1> you can shell into your VM and check on resources\\r\\n\\r\\n== Hello World\\r\\n\\r\\nMinishift is secured by default and requires you to login\\r\\n\\r\\n----\\r\\n$ oc login $(minishift ip):8443 -u admin -p admin\\r\\n----\\r\\n\\r\\nThe \\\"default\\\" namespace should already be the current context, but setting it here to make it obvious\\r\\n\\r\\n----\\r\\n$ kubectl config set-context $(kubectl config current-context) --namespace=default\\r\\n# or\\r\\n$ kubens default #kubens comes with the kubectx tool\\r\\n----\\r\\n\\r\\nThe command \\\"kubectl run\\\" is the fastest way to deploy a pod (think linux container). It is useful during development but NOT recommended for production\\r\\n----\\r\\n$ kubectl run hello-minikube --image=k8s.gcr.io/echoserver:1.10 --port=8080\\r\\n----\\r\\n\\r\\nIt produces a Deployment\\r\\n----\\r\\n$ kubectl get deployments\\r\\nNAME             DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE\\r\\nhello-minikube   1         1         1            1           7s\\r\\n----\\r\\n\\r\\nwhich produces a Pod\\r\\n----\\r\\n$ kubectl get pods\\r\\nNAME                              READY     STATUS    RESTARTS   AGE\\r\\nhello-minikube-7c77b68cff-2xcpp   1/1       Running   0          27s\\r\\n\\r\\n# Tip, if you can not find your pod, perhaps it is in another namespace\\r\\n$ kubectl get pods --all-namespaces\\r\\n\\r\\n# and it can be fun to see what labels were applied to your pod\\r\\n$ kubectl get pods --show-labels\\r\\n----\\r\\n\\r\\nYou create a Service\\r\\n----\\r\\n$ kubectl expose deployment hello-minikube --type=NodePort\\r\\nservice \\\"hello-minikube\\\" exposed\\r\\n----\\r\\n\\r\\nand see that newly minted Service object\\r\\n----\\r\\n$ kubectl get service\\r\\nNAME             TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE\\r\\nhello-minikube   NodePort    10.97.139.177   <none>        8080:32403/TCP   20s\\r\\nkubernetes       ClusterIP   10.96.0.1       <none>        443/TCP           1h\\r\\n----\\r\\n\\r\\nYou can find the Service's URL \\r\\n----\\r\\n$ minikube service hello-minikube --url\\r\\nhttp://192.168.99.103:32403\\r\\n# and curl it\\r\\n$ curl $(minikube service hello-minikube --url)\\r\\n----\\r\\nor just load up the URL in your favorite browser\\r\\nhttps://screencast.com/t/k5GVJlfg\\r\\n\\r\\nNote: minishift has a slightly different variant on the \\\"service\\\" command\\r\\n----\\r\\n$ minishift openshift service hello-minikube --url\\r\\n# and curl it\\r\\n$ curl $(minishift openshift service hello-minikube --url)\\r\\n----\\r\\n\\r\\nThe Deployment that was generated via your \\\"kubectl run\\\" commamnd actually has a bunch of interesting defaults\\r\\n----\\r\\n$ kubectl describe deployment hello-minikube\\r\\nName:                   hello-minikube\\r\\nNamespace:              default\\r\\nCreationTimestamp:      Sun, 29 Jul 2018 15:21:38 -0400\\r\\nLabels:                 run=hello-minikube\\r\\nAnnotations:            deployment.kubernetes.io/revision=1\\r\\nSelector:               run=hello-minikube\\r\\nReplicas:               1 desired | 1 updated | 1 total | 1 available | 0 unavailable\\r\\nStrategyType:           RollingUpdate\\r\\nMinReadySeconds:        0\\r\\nRollingUpdateStrategy:  1 max unavailable, 1 max surge\\r\\nPod Template:\\r\\n  Labels:  run=hello-minikube\\r\\n  Containers:\\r\\n   hello-minikube:\\r\\n    Image:        k8s.gcr.io/echoserver:1.10\\r\\n    Port:         8080/TCP\\r\\n    Host Port:    0/TCP\\r\\n    Environment:  <none>\\r\\n    Mounts:       <none>\\r\\n  Volumes:        <none>\\r\\nConditions:\\r\\n  Type           Status  Reason\\r\\n  ----           ------  ------\\r\\n  Available      True    MinimumReplicasAvailable\\r\\n  Progressing    True    NewReplicaSetAvailable\\r\\nOldReplicaSets:  <none>\\r\\nNewReplicaSet:   hello-minikube-7c77b68cff (1/1 replicas created)\\r\\nEvents:\\r\\n  Type    Reason             Age   From                   Message\\r\\n  ----    ------             ----  ----                   -------\\r\\n  Normal  ScalingReplicaSet  5m    deployment-controller  Scaled up replica set hello-minikube-7c77b68cff to 1\\r\\n----\\r\\n\\r\\nbut that is beyond the scope of simply getting started, just remember the \\\"kubectl describe <object>\\\" trick for future reference.\\r\\n\\r\\nAnother key tip to remember, is \\\"get all\\\" which is useful for seeing what other objects might be floating around\\r\\n----\\r\\n$ kubectl get all \\r\\n# or with -n mynamespace\\r\\n$ kubectl get all -n default\\r\\n----\\r\\n \\r\\n=== Clean up\\r\\n----\\r\\n$ kubectl delete service hello-minikube\\r\\n\\r\\n$ kubectl delete deployment hello-minikube\\r\\n----\\r\\nAnd you will notice that the pod also terminates. In another terminal window, use the -w to watch as the pod changes state\\r\\n\\r\\n----\\r\\n$ kubectl get pods -w\\r\\nNAME                              READY     STATUS    RESTARTS   AGE\\r\\nhello-minikube-7c77b68cff-2xcpp   1/1       Running   0          8m\\r\\nhello-minikube-7c77b68cff-2xcpp   1/1       Terminating   0         9m\\r\\nhello-minikube-7c77b68cff-2xcpp   0/1       Terminating   0         9m\\r\\n----\\r\\nUse Ctrl-c to stop watching pods\\r\\n\\r\\nYou can shutdown the VM to save resources when not in use\\r\\n----\\r\\n$ minikube stop\\r\\n# go about your business, come back later and\\r\\n$ minikube start\\r\\n----\\r\\n\\r\\nand if you need to wipe out the VM entirely\\r\\n----\\r\\n$ minikube delete\\r\\n----\\r\\n\\r\\nYour minikube configuration goes in a hidden directory at\\r\\n----\\r\\n$MINIKUBE_HOME/.minikube/machines/minikube/config.json \\r\\n----\\r\\n\\r\\nand your kubectl configuration goes in a different hidden directory at\\r\\n----\\r\\n$HOME/.kube/config\\r\\n----\\r\\nand if things go really badly, you might need to wipe out those directories\\r\\n----\\r\\n$ rm -rf ~/.kube\\r\\n$ rm -rf $MINIKUBE_HOME/.minikube\\r\\n----\\r\\n\\r\\n== More resources\\r\\nhttps://github.com/kubernetes/minikube#installation\\r\\n\\r\\nhttps://kubernetes.io/docs/setup/minikube/#quickstart\\r\\nincluding proxy challenges\\r\\n\\r\\n*Hyperkit for Mac*\\r\\n\\r\\nhttps://github.com/kubernetes/minikube/blob/master/docs/drivers.md#hyperkit-driver\\r\\n\\r\\n*Node.js tutorial*\\r\\n\\r\\nhttps://kubernetes.io/docs/tutorials/hello-minikube/\\r\\n\\r\\n*Dealing with multiple clusters*\\r\\n\\r\\nhttps://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/#define-clusters-users-and-contexts\", \"date\": \"2018-12-31T07:05:00Z\", \"excerpt\": \"OpenShift is Red Hat's distribution of Kubernetes \\r\\n\\r\\nminikube and minishift are essentially equivalent and will be used for the demonstrations/examples below.\\r\\n\\r\\nThese instructions are primarily for Linux & MacOS.  At some point, I do hope to find the time translate them to Windows PowerShell.  \\r\\nThese instructions have NOT been tested well on Windows Bash.\", \"header_image\": 1, \"post_tags\": [{\"pk\": 1, \"tag\": 1, \"content_object\": 4}, {\"pk\": 2, \"tag\": 2, \"content_object\": 4}], \"categories\": []}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 4,
+  "fields": {
+    "page": 4,
+    "submitted_for_moderation": false,
+    "created_at": "2018-12-31T07:18:09.953Z",
+    "user": 1,
+    "content_json": "{\"pk\": 4, \"path\": \"000100020001\", \"depth\": 3, \"numchild\": 0, \"title\": \"First blog post\", \"draft_title\": \"First blog post\", \"slug\": \"first-blog-post\", \"content_type\": 41, \"live\": false, \"has_unpublished_changes\": true, \"url_path\": \"/blog/first-blog-post/\", \"owner\": 1, \"seo_title\": \"\", \"show_in_menus\": false, \"search_description\": \"\", \"go_live_at\": null, \"expire_at\": null, \"expired\": false, \"locked\": false, \"first_published_at\": null, \"last_published_at\": null, \"latest_revision_created_at\": \"2018-12-31T07:09:18.997Z\", \"live_revision\": null, \"body\": \"= Step 1: Installation & Getting Started\\r\\nBurr Sutter <burrsuter@gmail.com>\\r\\n\\r\\nifndef::codedir[:codedir: code]\\r\\nifndef::imagesdir[:imagesdir: images]\\r\\n\\r\\nCreate and change into a directory where you would like to work.\\r\\n\\r\\n== Setup\\r\\n\\r\\nOpenShift is Red Hat's distribution of Kubernetes \\r\\n\\r\\nminikube and minishift are essentially equivalent and will be used for the demonstrations/examples below.\\r\\n\\r\\nThese instructions are primarily for Linux & MacOS.  At some point, I do hope to find the time translate them to Windows PowerShell.  \\r\\nThese instructions have NOT been tested well on Windows Bash.\\r\\n\\r\\n=== Prerequisites\\r\\n* Docker for Mac/Windows\\r\\n* bash shell\\r\\n* git\\r\\n* JDK \\r\\n* Apache Maven (compilation of Java projects)\\r\\n* curl, tar\\r\\n* Homebrew for Mac - \\\"brew install stern\\\"\\r\\n* minikube and/or minishift will be downloaded below\\r\\n* kubectl and/or oc will be downloaded below\\r\\n\\r\\n=== Downloads\\r\\nDownload & Install Kubernetes CLI\\r\\n[source,bash]\\r\\n----\\r\\n# MacOS\\r\\n$ curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.12.0/bin/darwin/amd64/kubectl \\r\\n# \\r\\n$ chmod +x kubectl\\r\\n# or\\r\\n$ brew install kubernetes-cli\\r\\n----\\r\\nLinux & Windows instructions for finding and downloading the a kubectl \\r\\nhttps://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl\\r\\n\\r\\nDownload & Install Minikube Cluster\\r\\n[source,bash]\\r\\n----\\r\\n$ curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.29.0/minikube-darwin-amd64\\r\\n$ chmod +x minikube \\r\\n# or\\r\\n$ brew cask install minikube\\r\\n# if you don't have VirtualBox installed\\r\\n$ brew cask install virtualbox\\r\\n----\\r\\nMore Minikube releases https://github.com/kubernetes/minikube/releases\\r\\n\\r\\nOR\\r\\n\\r\\nDownload & Install Minishift Cluster\\r\\n[source,bash]\\r\\n----\\r\\n$ curl -LO https://github.com/minishift/minishift/releases/download/v1.24.0/minishift-1.24.0-darwin-amd64.tgz\\r\\n$ tar -xvf minishift-1.24.0-darwin-amd64.tgz \\r\\n----\\r\\nMore Minishift releases https://github.com/minishift/minishift/releases\\r\\n\\r\\nNote: \\\"minikube\\\" should be interchangeable with \\\"minishift\\\" in the instructions below, if there is a unique aspect then that will be called out.  \\r\\n\\r\\n\\r\\n=== Environment\\r\\n[source,bash]\\r\\n----\\r\\n#!/bin/bash\\r\\n\\r\\nexport MINIKUBE_HOME=/Users/burrsutter/minikube_0.29.0/bin;\\r\\nexport PATH=$MINIKUBE_HOME:$PATH\\r\\n----\\r\\n\\r\\n[source,bash]\\r\\n----\\r\\n$ minikube version\\r\\nminikube version: v0.29.0\\r\\n# or\\r\\n$ minishift version\\r\\nminishift v1.24.0+8a904d0\\r\\n----\\r\\n\\r\\n=== Create the VM\\r\\n[source,bash]\\r\\n----\\r\\n#!/bin/bash\\r\\n\\r\\nminikube config set memory 6144\\r\\nminikube config set cpus 2 <1>\\r\\nminikube config set vm-driver virtualbox #hyperkit <2>\\r\\n# minishift addon enable admin-user <3>\\r\\n# minishift addon enable anyuid <4>\\r\\nminikube start\\r\\n----\\r\\n<1> I use 2 cpus here because I have 6 core laptop.  Keep this number at or below 50% of overall laptop resources.\\r\\nThere is nothing in this series of exercises that is CPU intensive but minishift has a 10 pod per core limit.\\r\\n<2> I use virtualbox because it is available on all platforms.  There a number of hypervisor options\\r\\nhttps://kubernetes.io/docs/tasks/tools/install-minikube/#install-a-hypervisor\\r\\n<3> Minishift is secured by default, this creates an cluster \\\"admin\\\" user\\r\\n\\r\\nNote: with 1.24, I have seen this command fail, the workaround is to wait until minishift start completes then use\\r\\n\\\"minishift addons apply admin-user\\\"\\r\\n\\r\\n<4> A mechanism on OpenShift that allows the execution of an image with any user id, including root.\\r\\nhttps://github.com/burrsutter/9stepsawesome/issues/3\\r\\n\\r\\nNote: with 1.24, I have seen this command fail, the workaround is to wait until minishift start completes then use\\r\\n\\\"minishift addons apply anyuid\\\"\\r\\n\\r\\n.VirtualBox UI\\r\\nimage::virtualbox_ui.png[VirtualBox]\\r\\n\\r\\n\\r\\n=== Check status, IP & Dashboard/Console\\r\\n----\\r\\n$ minikube config view\\r\\n- cpus: 2\\r\\n- memory: 6144\\r\\n- vm-driver: virtualbox\\r\\n$ minikube status\\r\\nminikube: Running\\r\\ncluster: Running\\r\\nkubectl: Correctly Configured: pointing to minikube-vm at 192.168.99.103\\r\\n$ minikube ip\\r\\n192.168.99.103\\r\\n$ minikube dashboard --url\\r\\nhttp://192.168.99.103:30000\\r\\n$ minikube dashboard\\r\\n----\\r\\n\\r\\n.minikube dashboard\\r\\nimage::minikube_dashboard.png[Minikube Dashboard]\\r\\n\\r\\n.minishift dashboard\\r\\nimage::openshift_dashboard.png[Minishift Dashboard]\\r\\n\\r\\n\\r\\n\\r\\n=== Check your kubectl CLI\\r\\n----\\r\\n$ kubectl config current-context\\r\\nminikube\\r\\n# or in the case of minishift\\r\\n# /192-168-99-102:8443/admin\\r\\n\\r\\n$ kubectl version\\r\\nClient Version: version.Info{Major:\\\"1\\\", Minor:\\\"12\\\", GitVersion:\\\"v1.12.0\\\", GitCommit:\\\"0ed33881dc4355495f623c6f22e7dd0b7632b7c0\\\", GitTreeState:\\\"clean\\\", BuildDate:\\\"2018-09-27T17:05:32Z\\\", GoVersion:\\\"go1.10.4\\\", Compiler:\\\"gc\\\", Platform:\\\"darwin/amd64\\\"}\\r\\nServer Version: version.Info{Major:\\\"1\\\", Minor:\\\"10\\\", GitVersion:\\\"v1.10.0\\\", GitCommit:\\\"fc32d2f3698e36b93322a3465f63a14e9f0eaead\\\", GitTreeState:\\\"clean\\\", BuildDate:\\\"2018-03-26T16:44:10Z\\\", GoVersion:\\\"go1.9.3\\\", Compiler:\\\"gc\\\", Platform:\\\"linux/amd64\\\"}\\r\\n----\\r\\nand if needed, point kubectl back at minikube with \\\"kubectl config use-context minikube\\\"\\r\\n\\r\\nAlso, there is a cool tool that makes switching between Kubernetes clusters and the context a lot easier\\r\\nhttps://github.com/ahmetb/kubectx\\r\\n\\r\\n----\\r\\nbrew install kubectx\\r\\n----\\r\\n\\r\\n=== Namespaces & Pods\\r\\n----\\r\\n$ kubectl get namespaces\\r\\n\\r\\n$ kubectl get pod --all-namespaces\\r\\n----\\r\\n\\r\\n=== Configure Env for Docker \\r\\n----\\r\\n$ minikube docker-env\\r\\nexport DOCKER_TLS_VERIFY=\\\"1\\\"\\r\\nexport DOCKER_HOST=\\\"tcp://192.168.99.103:2376\\\"\\r\\nexport DOCKER_CERT_PATH=\\\"/Users/burrsutter/minikube_0.28.1/bin/.minikube/certs\\\"\\r\\nexport DOCKER_API_VERSION=\\\"1.35\\\"\\r\\n# or\\r\\n$ eval $(minikube docker-env)\\r\\n# and\\r\\n# eval $(minishift oc-env) <1>\\r\\n----\\r\\n<1> This command puts the \\\"oc\\\" CLI tool in your PATH\\r\\n\\r\\n=== Using Docker CLI \\r\\n----\\r\\n$ docker ps\\r\\n$ docker images\\r\\n----\\r\\nThese commands should now be pulling from your minikube/minishift hosted docker daemon.  You can turn off the Docker for Mac/Windows daemon to save memory.\\r\\n\\r\\n\\r\\n=== Minikube/Minishift Happy?\\r\\n----\\r\\n$ minikube ssh <1>\\r\\n$ free -h\\r\\n$ df -h\\r\\n$ top\\r\\n$ ctrl-c\\r\\n$ exit\\r\\n----\\r\\n<1> you can shell into your VM and check on resources\\r\\n\\r\\n== Hello World\\r\\n\\r\\nMinishift is secured by default and requires you to login\\r\\n\\r\\n----\\r\\n$ oc login $(minishift ip):8443 -u admin -p admin\\r\\n----\\r\\n\\r\\nThe \\\"default\\\" namespace should already be the current context, but setting it here to make it obvious\\r\\n\\r\\n----\\r\\n$ kubectl config set-context $(kubectl config current-context) --namespace=default\\r\\n# or\\r\\n$ kubens default #kubens comes with the kubectx tool\\r\\n----\\r\\n\\r\\nThe command \\\"kubectl run\\\" is the fastest way to deploy a pod (think linux container). It is useful during development but NOT recommended for production\\r\\n----\\r\\n$ kubectl run hello-minikube --image=k8s.gcr.io/echoserver:1.10 --port=8080\\r\\n----\\r\\n\\r\\nIt produces a Deployment\\r\\n----\\r\\n$ kubectl get deployments\\r\\nNAME             DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE\\r\\nhello-minikube   1         1         1            1           7s\\r\\n----\\r\\n\\r\\nwhich produces a Pod\\r\\n----\\r\\n$ kubectl get pods\\r\\nNAME                              READY     STATUS    RESTARTS   AGE\\r\\nhello-minikube-7c77b68cff-2xcpp   1/1       Running   0          27s\\r\\n\\r\\n# Tip, if you can not find your pod, perhaps it is in another namespace\\r\\n$ kubectl get pods --all-namespaces\\r\\n\\r\\n# and it can be fun to see what labels were applied to your pod\\r\\n$ kubectl get pods --show-labels\\r\\n----\\r\\n\\r\\nYou create a Service\\r\\n----\\r\\n$ kubectl expose deployment hello-minikube --type=NodePort\\r\\nservice \\\"hello-minikube\\\" exposed\\r\\n----\\r\\n\\r\\nand see that newly minted Service object\\r\\n----\\r\\n$ kubectl get service\\r\\nNAME             TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE\\r\\nhello-minikube   NodePort    10.97.139.177   <none>        8080:32403/TCP   20s\\r\\nkubernetes       ClusterIP   10.96.0.1       <none>        443/TCP           1h\\r\\n----\\r\\n\\r\\nYou can find the Service's URL \\r\\n----\\r\\n$ minikube service hello-minikube --url\\r\\nhttp://192.168.99.103:32403\\r\\n# and curl it\\r\\n$ curl $(minikube service hello-minikube --url)\\r\\n----\\r\\nor just load up the URL in your favorite browser\\r\\nhttps://screencast.com/t/k5GVJlfg\\r\\n\\r\\nNote: minishift has a slightly different variant on the \\\"service\\\" command\\r\\n----\\r\\n$ minishift openshift service hello-minikube --url\\r\\n# and curl it\\r\\n$ curl $(minishift openshift service hello-minikube --url)\\r\\n----\\r\\n\\r\\nThe Deployment that was generated via your \\\"kubectl run\\\" commamnd actually has a bunch of interesting defaults\\r\\n----\\r\\n$ kubectl describe deployment hello-minikube\\r\\nName:                   hello-minikube\\r\\nNamespace:              default\\r\\nCreationTimestamp:      Sun, 29 Jul 2018 15:21:38 -0400\\r\\nLabels:                 run=hello-minikube\\r\\nAnnotations:            deployment.kubernetes.io/revision=1\\r\\nSelector:               run=hello-minikube\\r\\nReplicas:               1 desired | 1 updated | 1 total | 1 available | 0 unavailable\\r\\nStrategyType:           RollingUpdate\\r\\nMinReadySeconds:        0\\r\\nRollingUpdateStrategy:  1 max unavailable, 1 max surge\\r\\nPod Template:\\r\\n  Labels:  run=hello-minikube\\r\\n  Containers:\\r\\n   hello-minikube:\\r\\n    Image:        k8s.gcr.io/echoserver:1.10\\r\\n    Port:         8080/TCP\\r\\n    Host Port:    0/TCP\\r\\n    Environment:  <none>\\r\\n    Mounts:       <none>\\r\\n  Volumes:        <none>\\r\\nConditions:\\r\\n  Type           Status  Reason\\r\\n  ----           ------  ------\\r\\n  Available      True    MinimumReplicasAvailable\\r\\n  Progressing    True    NewReplicaSetAvailable\\r\\nOldReplicaSets:  <none>\\r\\nNewReplicaSet:   hello-minikube-7c77b68cff (1/1 replicas created)\\r\\nEvents:\\r\\n  Type    Reason             Age   From                   Message\\r\\n  ----    ------             ----  ----                   -------\\r\\n  Normal  ScalingReplicaSet  5m    deployment-controller  Scaled up replica set hello-minikube-7c77b68cff to 1\\r\\n----\\r\\n\\r\\nbut that is beyond the scope of simply getting started, just remember the \\\"kubectl describe <object>\\\" trick for future reference.\\r\\n\\r\\nAnother key tip to remember, is \\\"get all\\\" which is useful for seeing what other objects might be floating around\\r\\n----\\r\\n$ kubectl get all \\r\\n# or with -n mynamespace\\r\\n$ kubectl get all -n default\\r\\n----\\r\\n \\r\\n=== Clean up\\r\\n----\\r\\n$ kubectl delete service hello-minikube\\r\\n\\r\\n$ kubectl delete deployment hello-minikube\\r\\n----\\r\\nAnd you will notice that the pod also terminates. In another terminal window, use the -w to watch as the pod changes state\\r\\n\\r\\n----\\r\\n$ kubectl get pods -w\\r\\nNAME                              READY     STATUS    RESTARTS   AGE\\r\\nhello-minikube-7c77b68cff-2xcpp   1/1       Running   0          8m\\r\\nhello-minikube-7c77b68cff-2xcpp   1/1       Terminating   0         9m\\r\\nhello-minikube-7c77b68cff-2xcpp   0/1       Terminating   0         9m\\r\\n----\\r\\nUse Ctrl-c to stop watching pods\\r\\n\\r\\nYou can shutdown the VM to save resources when not in use\\r\\n----\\r\\n$ minikube stop\\r\\n# go about your business, come back later and\\r\\n$ minikube start\\r\\n----\\r\\n\\r\\nand if you need to wipe out the VM entirely\\r\\n----\\r\\n$ minikube delete\\r\\n----\\r\\n\\r\\nYour minikube configuration goes in a hidden directory at\\r\\n----\\r\\n$MINIKUBE_HOME/.minikube/machines/minikube/config.json \\r\\n----\\r\\n\\r\\nand your kubectl configuration goes in a different hidden directory at\\r\\n----\\r\\n$HOME/.kube/config\\r\\n----\\r\\nand if things go really badly, you might need to wipe out those directories\\r\\n----\\r\\n$ rm -rf ~/.kube\\r\\n$ rm -rf $MINIKUBE_HOME/.minikube\\r\\n----\\r\\n\\r\\n== More resources\\r\\nhttps://github.com/kubernetes/minikube#installation\\r\\n\\r\\nhttps://kubernetes.io/docs/setup/minikube/#quickstart\\r\\nincluding proxy challenges\\r\\n\\r\\n*Hyperkit for Mac*\\r\\n\\r\\nhttps://github.com/kubernetes/minikube/blob/master/docs/drivers.md#hyperkit-driver\\r\\n\\r\\n*Node.js tutorial*\\r\\n\\r\\nhttps://kubernetes.io/docs/tutorials/hello-minikube/\\r\\n\\r\\n*Dealing with multiple clusters*\\r\\n\\r\\nhttps://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/#define-clusters-users-and-contexts\", \"date\": \"2018-12-31T07:05:00Z\", \"excerpt\": \"OpenShift is Red Hat's distribution of Kubernetes \\r\\n\\r\\nminikube and minishift are essentially equivalent and will be used for the demonstrations/examples below.\\r\\n\\r\\nThese instructions are primarily for Linux & MacOS.  At some point, I do hope to find the time translate them to Windows PowerShell.  \\r\\nThese instructions have NOT been tested well on Windows Bash.\", \"header_image\": 1, \"post_tags\": [{\"pk\": null, \"tag\": 1, \"content_object\": 4}, {\"pk\": null, \"tag\": 2, \"content_object\": 4}], \"categories\": []}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 5,
+  "fields": {
+    "page": 5,
+    "submitted_for_moderation": false,
+    "created_at": "2018-12-31T07:32:21.084Z",
+    "user": 1,
+    "content_json": "{\"pk\": 5, \"path\": \"000100020002\", \"depth\": 3, \"numchild\": 0, \"title\": \"Second post\", \"draft_title\": \"Second post\", \"slug\": \"second-post\", \"content_type\": 41, \"live\": false, \"has_unpublished_changes\": false, \"url_path\": \"/blog/second-post/\", \"owner\": 1, \"seo_title\": \"\", \"show_in_menus\": false, \"search_description\": \"\", \"go_live_at\": null, \"expire_at\": null, \"expired\": false, \"locked\": false, \"first_published_at\": null, \"last_published_at\": null, \"latest_revision_created_at\": null, \"live_revision\": null, \"body\": \"= Step 2: Building Images & Running Containers\\r\\nBurr Sutter <burrsutter@gmail.com>\\r\\n\\r\\nifndef::codedir[:codedir: kubefiles]\\r\\nifndef::imagesdir[:imagesdir: images]\\r\\n\\r\\n== Namespaces\\r\\nThe resources (your apps) you create can be organized into namespaces which are particularly helpful when dealing with a larger team.\\r\\n\\r\\nYou can create a namespace via simple command\\r\\n----\\r\\n$ kubectl create namespace demo\\r\\n$ kubectl get namespaces\\r\\nNAME          STATUS    AGE\\r\\ndefault       Active    22h\\r\\ndemo          Active    6m\\r\\nkube-public   Active    21h\\r\\nkube-system   Active    22h\\r\\n----\\r\\n\\r\\nThe -o yaml trick is a great way to see what the command created\\r\\n\\r\\n----\\r\\n$ kubectl get namespace/demo -o yaml\\r\\napiVersion: v1\\r\\nkind: Namespace\\r\\nmetadata:\\r\\n  creationTimestamp: 2018-07-29T22:27:27Z\\r\\n  name: demo\\r\\n  resourceVersion: \\\"21330\\\"\\r\\n  selfLink: /api/v1/namespaces/demo\\r\\n  uid: 92a63dee-937e-11e8-9a0f-080027cd86aa\\r\\nspec:\\r\\n  finalizers:\\r\\n  - kubernetes\\r\\nstatus:\\r\\n  phase: Active\\r\\n----\\r\\n\\r\\nYou can also use the \\r\\n----\\r\\nkubectl get namespace/demo --export -o yaml \\r\\n----\\r\\nfor something cleaner, something you might store and use later with kubectl apply -f\\r\\n\\r\\n\\r\\nDeleting a Namespace is also available via command\\r\\n\\r\\n----\\r\\n$ kubectl delete namespace/demo \\r\\n----\\r\\n\\r\\nYour objects should be created via a file that can be checked into source control.  Create a Namespace via yaml.\\r\\n\\r\\n----\\r\\n$ kubectl create -f kubefiles/myspace-namespace.yml # <1>\\r\\n$ kubectl config set-context minikube --namespace=myspace # <2>\\r\\n# or if you are using minishift and oc, there is a shortcut\\r\\n$ oc project myspace\\r\\n# or if you installed kubectx, try\\r\\n# kubens myspace\\r\\n----\\r\\n<1> Using the yaml allows you to place this file in a source repository\\r\\n<2> The setting of the context means you have to type -n myspace less often.  Also, when using Minishift,\\r\\n\\\"oc project myspace\\\" is the equivalent command. In OpenShift projects = namespaces. \\r\\n\\r\\n[source,yaml,subs=\\\"normal,attributes\\\"]\\r\\n----\\r\\ninclude::kubefiles/myspace-namespace.yml[]\\r\\n----\\r\\n\\r\\nYou can confirm your context with\\r\\n----\\r\\n$ kubectl config view --minify --template '{{ index .contexts 0 \\\"context\\\" \\\"namespace\\\" }}'\\r\\n# of if you are using minishift and oc then there is a handy shortcut\\r\\n$ oc project\\r\\n# or you can use kubens tool which comes with kubectx (brew install kubectx)\\r\\n$ kubens\\r\\n\\r\\n----\\r\\n\\r\\n== Code\\r\\nNow that you have a Namespace, you need to craft some code\\r\\n\\r\\nThe \\\"hello\\\" directory contains several \\\"hello world\\\" style projects.  Let's use SpringBoot and run a quick test of the endpoint.\\r\\n\\r\\n----\\r\\n$ cd hello/springboot\\r\\n$ mvn clean package\\r\\n$ java -jar target/boot-demo-0.0.1.jar\\r\\n$ curl localhost:8080\\r\\n----\\r\\n\\r\\nNext create the docker image, first double check that you are still connected to the correct Docker daemon\\r\\n\\r\\n----\\r\\n$ docker images | grep 9steps\\r\\n$ docker build -t 9stepsawesome/myboot:v1 .\\r\\n----\\r\\n\\r\\nTest that docker image\\r\\n----\\r\\n$ minikube ip\\r\\n$ docker run -it -p 8080:8080 9stepsawesome/myboot:v1 \\r\\n$ curl $(minikube ip):8080\\r\\n----\\r\\n\\r\\nSince the docker container is running \\\"inside\\\" the minikube/minishift VM, you need to use its IP address\\r\\nctrl-c to terminate the Spring Boot process and its docker container.\\r\\n\\r\\n\\r\\n== Deployment\\r\\n\\r\\nNext, deploy it as a pod inside of Kubernetes/OpenShift.  You could use the \\\"kubectl run\\\" command but here we will use a Deployment\\r\\n----\\r\\n$ kubectl create -f kubefiles/myboot-deployment.yml\\r\\n----\\r\\n\\r\\nAnd then see what happened\\r\\n----\\r\\n$ kubectl get all\\r\\nNAME                          READY     STATUS    RESTARTS   AGE\\r\\npod/myboot-79bfc988c8-ttz5r   1/1       Running   0          25s\\r\\n\\r\\nNAME                     DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE\\r\\ndeployment.apps/myboot   1         1         1            1           25s\\r\\n\\r\\nNAME                                DESIRED   CURRENT   READY     AGE\\r\\nreplicaset.apps/myboot-79bfc988c8   1         1         1         25s\\r\\n----\\r\\n\\r\\n== Service\\r\\n\\r\\nCreate a Service\\r\\n----\\r\\n$ kubectl create -f kubefiles/myboot-service.yml \\r\\n----\\r\\n\\r\\nGet the nodePort\\r\\n----\\r\\n$ kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\"\\r\\n----\\r\\n\\r\\nCurl that url + nodePort\\r\\n----\\r\\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")\\r\\n----\\r\\n\\r\\nPerhaps build a little loop to curl that endpoint\\r\\n[source, bash]\\r\\n----\\r\\nwhile true\\r\\ndo \\r\\n  curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")\\r\\n  sleep .5;\\r\\ndone\\r\\n----\\r\\n\\r\\n== Scale\\r\\n\\r\\nLet's scale up the application to 3 replicas, there are several possible ways to achieve this result.\\r\\n\\r\\nYou can edit the myboot-deployment.yml, updating replicas to 3\\r\\n----\\r\\n$ kubectl replace -f kubefiles/myboot-deployment.yml\\r\\n----\\r\\n\\r\\nOr use the kubectl scale command\\r\\n----\\r\\n$ kubectl scale --replicas=3 deployment/myboot\\r\\n----\\r\\n\\r\\nOr you might patch it\\r\\n----\\r\\n$ kubectl patch deployment/myboot -p '{\\\"spec\\\":{\\\"replicas\\\":3}}'\\r\\n----\\r\\n\\r\\nOr use the kubectl edit command which essentially gives you \\\"vi\\\" for editing the deployment yaml\\r\\n----\\r\\n$ kubectl edit deployment/myboot\\r\\n/replicas\\r\\nesc-w-q\\r\\n----\\r\\n\\r\\nYou can then use \\\"kubectl get pods\\\" to see the pods that have been created\\r\\n----\\r\\n$ kubectl get pods\\r\\n----\\r\\n\\r\\nNote: 3 pods might push you out of your memory limits for your VM.  Check your memory usage with:\\r\\n----\\r\\n$ minishift ssh\\r\\n# or\\r\\n$ minikube ssh\\r\\n$ free -m\\r\\n$ top -o %MEM\\r\\n----\\r\\n\\r\\n== Update\\r\\n\\r\\nUpdate MyRESTController.java\\r\\n----\\r\\ngreeting = environment.getProperty(\\\"GREETING\\\",\\\"Bonjour\\\");\\r\\n----\\r\\n\\r\\nCompile & Build the fat jar\\r\\n----\\r\\nmvn clean package\\r\\n----\\r\\n\\r\\nYou can test with \\\"java -jar target/boot-demo-0.0.1.jar\\\" and \\\"curl localhost:8080\\\".  Ideally, you would have unit tests executed with \\\"mvn test\\\" as well.\\r\\n\\r\\nBuild the new docker image with a v2 tag\\r\\n----\\r\\n$ docker build -t 9stepsawesome/myboot:v2 .\\r\\n$ docker images | grep myboot\\r\\n----\\r\\n\\r\\nRollout the update\\r\\n----\\r\\n$ kubectl set image deployment/myboot myboot=9stepsawesome/myboot:v2\\r\\n----\\r\\n\\r\\nAnd if you were running your polling curl command, you might see\\r\\n----\\r\\nAloha from Spring Boot! 346 on myboot-79bfc988c8-ttz5r\\r\\nAloha from Spring Boot! 270 on myboot-79bfc988c8-ntb8d\\r\\nAloha from Spring Boot! 348 on myboot-79bfc988c8-ttz5r\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\nBonjour from Spring Boot! 0 on myboot-757658fc4c-qnvqx\\r\\nBonjour from Spring Boot! 1 on myboot-5955897c9b-zthj9\\r\\n----\\r\\n\\r\\nWe will be working on those errors when we address Liveness and Readiness probes in Step 7\\r\\n\\r\\nFor now, undo the update, going back to v1\\r\\n\\r\\n----\\r\\n$ kubectl rollout undo deployment/myboot \\r\\n----\\r\\n\\r\\nScale to 1\\r\\n----\\r\\n$ kubectl scale --replicas=1 deployment/myboot\\r\\n----\\r\\n\\r\\nHit the sysresources endpoint\\r\\n----\\r\\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")/sysresources\\r\\n Memory: 1324 Cores: 2\\r\\n----\\r\\n\\r\\nNote: you can use echo to see what this URL really looks like on your machine\\r\\n----\\r\\n$ echo $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")/sysresources\\r\\n192.168.99.105:30479/sysresources\\r\\n----\\r\\n\\r\\nThe results of the \\\"sysresources\\\" call should be about 1/4 memory and all the cores that were configured for the VM.  You can double check this with the following command:\\r\\n\\r\\n----\\r\\n$ minikube config view\\r\\n- cpus: 2\\r\\n- memory: 6144\\r\\n- vm-driver: virtualbox\\r\\n----\\r\\n\\r\\nNow, let's apply resource contraints via Kubernetes & deployment yaml.  Look at myboot-deployment-resources.yml\\r\\n\\r\\n----\\r\\n$ kubectl replace -f kubefiles/myboot-deployment-resources.yml \\r\\n----\\r\\n\\r\\nCurl sysresources again\\r\\n----\\r\\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")/sysresources\\r\\nMemory: 1324 Cores: 2\\r\\n----\\r\\n\\r\\nIn another terminal window, watch the pods\\r\\n----\\r\\n$ kubectl get pods -w\\r\\n----\\r\\n\\r\\nand now curl the consume endpoint\\r\\n----\\r\\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")/consume\\r\\n----\\r\\n\\r\\nand you should see a OOMKilled\\r\\n----\\r\\n$ kubectl get pods -w\\r\\nNAME                      READY     STATUS    RESTARTS   AGE\\r\\nmyboot-68d666dd8d-m9m5r   1/1       Running   0          1m\\r\\nmyboot-68d666dd8d-m9m5r   0/1       OOMKilled   0         2m\\r\\nmyboot-68d666dd8d-m9m5r   1/1       Running   1         2m\\r\\n----\\r\\n\\r\\nAnd you can also see the OOMKilled with the kubectl describe command\\r\\n----\\r\\n$ kubectl describe pod -l app=myboot\\r\\n...\\r\\n    Last State:     Terminated\\r\\n      Reason:       OOMKilled\\r\\n      Exit Code:    137\\r\\n      Started:      Tue, 31 Jul 2018 13:42:18 -0400\\r\\n      Finished:     Tue, 31 Jul 2018 13:44:24 -0400\\r\\n    Ready:          True\\r\\n    Restart Count:  1\\r\\n...\\r\\n----\\r\\n\\r\\nMystery to be solved in future steps!\", \"date\": \"2018-12-31T07:30:00Z\", \"excerpt\": \"The resources (your apps) you create can be organized into namespaces which are particularly helpful when dealing with a larger team.\\r\\n\\r\\nYou can create a namespace via simple command\", \"header_image\": 2, \"post_tags\": [{\"pk\": 5, \"tag\": 1, \"content_object\": 5}, {\"pk\": 6, \"tag\": 2, \"content_object\": 5}], \"categories\": []}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 6,
+  "fields": {
+    "page": 5,
+    "submitted_for_moderation": false,
+    "created_at": "2018-12-31T07:32:27.472Z",
+    "user": 1,
+    "content_json": "{\"pk\": 5, \"path\": \"000100020002\", \"depth\": 3, \"numchild\": 0, \"title\": \"Second post\", \"draft_title\": \"Second post\", \"slug\": \"second-post\", \"content_type\": 41, \"live\": false, \"has_unpublished_changes\": true, \"url_path\": \"/blog/second-post/\", \"owner\": 1, \"seo_title\": \"\", \"show_in_menus\": false, \"search_description\": \"\", \"go_live_at\": null, \"expire_at\": null, \"expired\": false, \"locked\": false, \"first_published_at\": null, \"last_published_at\": null, \"latest_revision_created_at\": \"2018-12-31T07:32:21.084Z\", \"live_revision\": null, \"body\": \"= Step 2: Building Images & Running Containers\\r\\nBurr Sutter <burrsutter@gmail.com>\\r\\n\\r\\nifndef::codedir[:codedir: kubefiles]\\r\\nifndef::imagesdir[:imagesdir: images]\\r\\n\\r\\n== Namespaces\\r\\nThe resources (your apps) you create can be organized into namespaces which are particularly helpful when dealing with a larger team.\\r\\n\\r\\nYou can create a namespace via simple command\\r\\n----\\r\\n$ kubectl create namespace demo\\r\\n$ kubectl get namespaces\\r\\nNAME          STATUS    AGE\\r\\ndefault       Active    22h\\r\\ndemo          Active    6m\\r\\nkube-public   Active    21h\\r\\nkube-system   Active    22h\\r\\n----\\r\\n\\r\\nThe -o yaml trick is a great way to see what the command created\\r\\n\\r\\n----\\r\\n$ kubectl get namespace/demo -o yaml\\r\\napiVersion: v1\\r\\nkind: Namespace\\r\\nmetadata:\\r\\n  creationTimestamp: 2018-07-29T22:27:27Z\\r\\n  name: demo\\r\\n  resourceVersion: \\\"21330\\\"\\r\\n  selfLink: /api/v1/namespaces/demo\\r\\n  uid: 92a63dee-937e-11e8-9a0f-080027cd86aa\\r\\nspec:\\r\\n  finalizers:\\r\\n  - kubernetes\\r\\nstatus:\\r\\n  phase: Active\\r\\n----\\r\\n\\r\\nYou can also use the \\r\\n----\\r\\nkubectl get namespace/demo --export -o yaml \\r\\n----\\r\\nfor something cleaner, something you might store and use later with kubectl apply -f\\r\\n\\r\\n\\r\\nDeleting a Namespace is also available via command\\r\\n\\r\\n----\\r\\n$ kubectl delete namespace/demo \\r\\n----\\r\\n\\r\\nYour objects should be created via a file that can be checked into source control.  Create a Namespace via yaml.\\r\\n\\r\\n----\\r\\n$ kubectl create -f kubefiles/myspace-namespace.yml # <1>\\r\\n$ kubectl config set-context minikube --namespace=myspace # <2>\\r\\n# or if you are using minishift and oc, there is a shortcut\\r\\n$ oc project myspace\\r\\n# or if you installed kubectx, try\\r\\n# kubens myspace\\r\\n----\\r\\n<1> Using the yaml allows you to place this file in a source repository\\r\\n<2> The setting of the context means you have to type -n myspace less often.  Also, when using Minishift,\\r\\n\\\"oc project myspace\\\" is the equivalent command. In OpenShift projects = namespaces. \\r\\n\\r\\n[source,yaml,subs=\\\"normal,attributes\\\"]\\r\\n----\\r\\ninclude::kubefiles/myspace-namespace.yml[]\\r\\n----\\r\\n\\r\\nYou can confirm your context with\\r\\n----\\r\\n$ kubectl config view --minify --template '{{ index .contexts 0 \\\"context\\\" \\\"namespace\\\" }}'\\r\\n# of if you are using minishift and oc then there is a handy shortcut\\r\\n$ oc project\\r\\n# or you can use kubens tool which comes with kubectx (brew install kubectx)\\r\\n$ kubens\\r\\n\\r\\n----\\r\\n\\r\\n== Code\\r\\nNow that you have a Namespace, you need to craft some code\\r\\n\\r\\nThe \\\"hello\\\" directory contains several \\\"hello world\\\" style projects.  Let's use SpringBoot and run a quick test of the endpoint.\\r\\n\\r\\n----\\r\\n$ cd hello/springboot\\r\\n$ mvn clean package\\r\\n$ java -jar target/boot-demo-0.0.1.jar\\r\\n$ curl localhost:8080\\r\\n----\\r\\n\\r\\nNext create the docker image, first double check that you are still connected to the correct Docker daemon\\r\\n\\r\\n----\\r\\n$ docker images | grep 9steps\\r\\n$ docker build -t 9stepsawesome/myboot:v1 .\\r\\n----\\r\\n\\r\\nTest that docker image\\r\\n----\\r\\n$ minikube ip\\r\\n$ docker run -it -p 8080:8080 9stepsawesome/myboot:v1 \\r\\n$ curl $(minikube ip):8080\\r\\n----\\r\\n\\r\\nSince the docker container is running \\\"inside\\\" the minikube/minishift VM, you need to use its IP address\\r\\nctrl-c to terminate the Spring Boot process and its docker container.\\r\\n\\r\\n\\r\\n== Deployment\\r\\n\\r\\nNext, deploy it as a pod inside of Kubernetes/OpenShift.  You could use the \\\"kubectl run\\\" command but here we will use a Deployment\\r\\n----\\r\\n$ kubectl create -f kubefiles/myboot-deployment.yml\\r\\n----\\r\\n\\r\\nAnd then see what happened\\r\\n----\\r\\n$ kubectl get all\\r\\nNAME                          READY     STATUS    RESTARTS   AGE\\r\\npod/myboot-79bfc988c8-ttz5r   1/1       Running   0          25s\\r\\n\\r\\nNAME                     DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE\\r\\ndeployment.apps/myboot   1         1         1            1           25s\\r\\n\\r\\nNAME                                DESIRED   CURRENT   READY     AGE\\r\\nreplicaset.apps/myboot-79bfc988c8   1         1         1         25s\\r\\n----\\r\\n\\r\\n== Service\\r\\n\\r\\nCreate a Service\\r\\n----\\r\\n$ kubectl create -f kubefiles/myboot-service.yml \\r\\n----\\r\\n\\r\\nGet the nodePort\\r\\n----\\r\\n$ kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\"\\r\\n----\\r\\n\\r\\nCurl that url + nodePort\\r\\n----\\r\\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")\\r\\n----\\r\\n\\r\\nPerhaps build a little loop to curl that endpoint\\r\\n[source, bash]\\r\\n----\\r\\nwhile true\\r\\ndo \\r\\n  curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")\\r\\n  sleep .5;\\r\\ndone\\r\\n----\\r\\n\\r\\n== Scale\\r\\n\\r\\nLet's scale up the application to 3 replicas, there are several possible ways to achieve this result.\\r\\n\\r\\nYou can edit the myboot-deployment.yml, updating replicas to 3\\r\\n----\\r\\n$ kubectl replace -f kubefiles/myboot-deployment.yml\\r\\n----\\r\\n\\r\\nOr use the kubectl scale command\\r\\n----\\r\\n$ kubectl scale --replicas=3 deployment/myboot\\r\\n----\\r\\n\\r\\nOr you might patch it\\r\\n----\\r\\n$ kubectl patch deployment/myboot -p '{\\\"spec\\\":{\\\"replicas\\\":3}}'\\r\\n----\\r\\n\\r\\nOr use the kubectl edit command which essentially gives you \\\"vi\\\" for editing the deployment yaml\\r\\n----\\r\\n$ kubectl edit deployment/myboot\\r\\n/replicas\\r\\nesc-w-q\\r\\n----\\r\\n\\r\\nYou can then use \\\"kubectl get pods\\\" to see the pods that have been created\\r\\n----\\r\\n$ kubectl get pods\\r\\n----\\r\\n\\r\\nNote: 3 pods might push you out of your memory limits for your VM.  Check your memory usage with:\\r\\n----\\r\\n$ minishift ssh\\r\\n# or\\r\\n$ minikube ssh\\r\\n$ free -m\\r\\n$ top -o %MEM\\r\\n----\\r\\n\\r\\n== Update\\r\\n\\r\\nUpdate MyRESTController.java\\r\\n----\\r\\ngreeting = environment.getProperty(\\\"GREETING\\\",\\\"Bonjour\\\");\\r\\n----\\r\\n\\r\\nCompile & Build the fat jar\\r\\n----\\r\\nmvn clean package\\r\\n----\\r\\n\\r\\nYou can test with \\\"java -jar target/boot-demo-0.0.1.jar\\\" and \\\"curl localhost:8080\\\".  Ideally, you would have unit tests executed with \\\"mvn test\\\" as well.\\r\\n\\r\\nBuild the new docker image with a v2 tag\\r\\n----\\r\\n$ docker build -t 9stepsawesome/myboot:v2 .\\r\\n$ docker images | grep myboot\\r\\n----\\r\\n\\r\\nRollout the update\\r\\n----\\r\\n$ kubectl set image deployment/myboot myboot=9stepsawesome/myboot:v2\\r\\n----\\r\\n\\r\\nAnd if you were running your polling curl command, you might see\\r\\n----\\r\\nAloha from Spring Boot! 346 on myboot-79bfc988c8-ttz5r\\r\\nAloha from Spring Boot! 270 on myboot-79bfc988c8-ntb8d\\r\\nAloha from Spring Boot! 348 on myboot-79bfc988c8-ttz5r\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\ncurl: (7) Failed to connect to 192.168.99.105 port 31218: Connection refused\\r\\nBonjour from Spring Boot! 0 on myboot-757658fc4c-qnvqx\\r\\nBonjour from Spring Boot! 1 on myboot-5955897c9b-zthj9\\r\\n----\\r\\n\\r\\nWe will be working on those errors when we address Liveness and Readiness probes in Step 7\\r\\n\\r\\nFor now, undo the update, going back to v1\\r\\n\\r\\n----\\r\\n$ kubectl rollout undo deployment/myboot \\r\\n----\\r\\n\\r\\nScale to 1\\r\\n----\\r\\n$ kubectl scale --replicas=1 deployment/myboot\\r\\n----\\r\\n\\r\\nHit the sysresources endpoint\\r\\n----\\r\\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")/sysresources\\r\\n Memory: 1324 Cores: 2\\r\\n----\\r\\n\\r\\nNote: you can use echo to see what this URL really looks like on your machine\\r\\n----\\r\\n$ echo $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")/sysresources\\r\\n192.168.99.105:30479/sysresources\\r\\n----\\r\\n\\r\\nThe results of the \\\"sysresources\\\" call should be about 1/4 memory and all the cores that were configured for the VM.  You can double check this with the following command:\\r\\n\\r\\n----\\r\\n$ minikube config view\\r\\n- cpus: 2\\r\\n- memory: 6144\\r\\n- vm-driver: virtualbox\\r\\n----\\r\\n\\r\\nNow, let's apply resource contraints via Kubernetes & deployment yaml.  Look at myboot-deployment-resources.yml\\r\\n\\r\\n----\\r\\n$ kubectl replace -f kubefiles/myboot-deployment-resources.yml \\r\\n----\\r\\n\\r\\nCurl sysresources again\\r\\n----\\r\\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")/sysresources\\r\\nMemory: 1324 Cores: 2\\r\\n----\\r\\n\\r\\nIn another terminal window, watch the pods\\r\\n----\\r\\n$ kubectl get pods -w\\r\\n----\\r\\n\\r\\nand now curl the consume endpoint\\r\\n----\\r\\n$ curl $(minikube ip):$(kubectl get service/myboot -o jsonpath=\\\"{.spec.ports[*].nodePort}\\\")/consume\\r\\n----\\r\\n\\r\\nand you should see a OOMKilled\\r\\n----\\r\\n$ kubectl get pods -w\\r\\nNAME                      READY     STATUS    RESTARTS   AGE\\r\\nmyboot-68d666dd8d-m9m5r   1/1       Running   0          1m\\r\\nmyboot-68d666dd8d-m9m5r   0/1       OOMKilled   0         2m\\r\\nmyboot-68d666dd8d-m9m5r   1/1       Running   1         2m\\r\\n----\\r\\n\\r\\nAnd you can also see the OOMKilled with the kubectl describe command\\r\\n----\\r\\n$ kubectl describe pod -l app=myboot\\r\\n...\\r\\n    Last State:     Terminated\\r\\n      Reason:       OOMKilled\\r\\n      Exit Code:    137\\r\\n      Started:      Tue, 31 Jul 2018 13:42:18 -0400\\r\\n      Finished:     Tue, 31 Jul 2018 13:44:24 -0400\\r\\n    Ready:          True\\r\\n    Restart Count:  1\\r\\n...\\r\\n----\\r\\n\\r\\nMystery to be solved in future steps!\", \"date\": \"2018-12-31T07:30:00Z\", \"excerpt\": \"The resources (your apps) you create can be organized into namespaces which are particularly helpful when dealing with a larger team.\\r\\n\\r\\nYou can create a namespace via simple command\", \"header_image\": 2, \"post_tags\": [{\"pk\": null, \"tag\": 1, \"content_object\": 5}, {\"pk\": null, \"tag\": 2, \"content_object\": 5}], \"categories\": []}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 2,
+    "title": "Root",
+    "draft_title": "Root",
+    "slug": "root",
+    "content_type": 1,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": null,
+    "last_published_at": null,
+    "latest_revision_created_at": null,
+    "live_revision": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 2,
+  "fields": {
+    "path": "00010001",
+    "depth": 2,
+    "numchild": 0,
+    "title": "Root",
+    "draft_title": "Root",
+    "slug": "root",
+    "content_type": 1,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/root/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2018-12-30T13:48:52.126Z",
+    "last_published_at": "2018-12-30T13:48:52.126Z",
+    "latest_revision_created_at": "2018-12-30T13:48:51.967Z",
+    "live_revision": 1
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 3,
+  "fields": {
+    "path": "00010002",
+    "depth": 2,
+    "numchild": 2,
+    "title": "Blog",
+    "draft_title": "Blog",
+    "slug": "blog",
+    "content_type": 38,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/blog/",
+    "owner": 1,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2018-12-30T13:49:10.524Z",
+    "last_published_at": "2018-12-30T13:49:10.524Z",
+    "latest_revision_created_at": "2018-12-30T13:49:10.319Z",
+    "live_revision": 2
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 4,
+  "fields": {
+    "path": "000100020001",
+    "depth": 3,
+    "numchild": 0,
+    "title": "First blog post",
+    "draft_title": "First blog post",
+    "slug": "first-blog-post",
+    "content_type": 41,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/blog/first-blog-post/",
+    "owner": 1,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2018-12-31T07:18:10.212Z",
+    "last_published_at": "2018-12-31T07:18:10.212Z",
+    "latest_revision_created_at": "2018-12-31T07:18:09.953Z",
+    "live_revision": 4
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 5,
+  "fields": {
+    "path": "000100020002",
+    "depth": 3,
+    "numchild": 0,
+    "title": "Second post",
+    "draft_title": "Second post",
+    "slug": "second-post",
+    "content_type": 41,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/blog/second-post/",
+    "owner": 1,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2018-12-31T07:32:27.834Z",
+    "last_published_at": "2018-12-31T07:32:27.834Z",
+    "latest_revision_created_at": "2018-12-31T07:32:27.472Z",
+    "live_revision": 6
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 1,
+  "fields": {
+    "collection": 1,
+    "title": "Kubernetes",
+    "file": "original_images/Kubernetes.png",
+    "width": 600,
+    "height": 425,
+    "created_at": "2018-12-31T07:08:35.995Z",
+    "uploaded_by_user": 1,
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 62739,
+    "file_hash": "b45fe4cdfe2b7cf9c0e6ff2e1e297e361263a276"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 2,
+  "fields": {
+    "collection": 1,
+    "title": "Kubernetes_cluser_architecture-1024x888.png",
+    "file": "original_images/Kubernetes_cluser_architecture-1024x888.png",
+    "width": 1024,
+    "height": 888,
+    "created_at": "2018-12-31T07:31:41.141Z",
+    "uploaded_by_user": 1,
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 139411,
+    "file_hash": "368144e1accd1ef9a31155310b1447ef8e62e17d"
+  }
+}
+]

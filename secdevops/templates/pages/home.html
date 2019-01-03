@@ -8,13 +8,25 @@
 <section class="content">
 <h1 style="text-align: center;" id="posts-headline">Recent Writings.</h1>
 
-  {% recent_posts 5 %}
+  {% post_list 5  as posts %}
 
-  <li>
-    <a href="/programatically-spawn-kubernetes-resources-from-python/" title="Read more about 'Programatically spawn kubernetes resources from Python'">Programatically spawn kubernetes resources from Python</a>
-    <time datetime="14 Nov 2018">47 days ago</time>
-    <span class="post tags"><a href="/tag/it/">IT</a> <a href="/tag/contribution/">contribution</a></span>
-  </li>
+    <ol id="posts-list">
+    {% for post in posts  %}
+    <li>
+        <a href="{{post.url}}" 
+        title="{{post.title}}">
+        {{post.title}}</a>
+
+        <time datetime="{{post.date}}">{{post.date}}</time>
+
+        <span class="post tags">
+          {% for tag in post.tags.all  %}
+            <a href="{{tag.url}}">{{tag}}</a>
+          {% endfor %}
+        </span>
+    </li>
+
+    {% endfor %}
 
 
   <nav class="pagination">

@@ -17,3 +17,8 @@ django-redis==4.10.0  # https://github.com/niwinz/django-redis
 djangorestframework==3.9.0  # https://github.com/encode/django-rest-framework
 coreapi==2.3.3  # https://github.com/core-api/python-client
 wagtail==2.4
+django-widget-tweaks
+django-el-pagination==3.1.0
+Markdown==2.6.2
+isort==4.3.4
+wagtailmenus==2.8
