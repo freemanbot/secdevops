@@ -5,5 +5,10 @@ set -o pipefail
 set -o nounset
 
 
+python /app/manage.py migrate
+python /app/manage.py loaddata /app/dump_latest.json
+# python /app/manage.py createsuperuser
+
 python /app/manage.py collectstatic --noinput
-/usr/local/bin/gunicorn config.wsgi --bind 0.0.0.0:5000 --chdir=/app
+# /usr/local/bin/gunicorn config.wsgi --bind 0.0.0.0:5000 --chdir=/app
+/usr/local/bin/gunicorn config.wsgi --bind 0.0.0.0:8000 --chdir=/app

@@ -3,7 +3,8 @@ version: '3'
 volumes:
   production_postgres_data: {}
   production_postgres_data_backups: {}
-  production_caddy: {}
+  # production_caddy: {}
+  production_nginx: {}
 
 services:
   django:
@@ -17,6 +18,8 @@ services:
     env_file:
       - ./.envs/.production/.django
       - ./.envs/.production/.postgres
+    # ports:
+    #   - "8000:8000"
     command: /start
 
   postgres:
@@ -30,20 +33,53 @@ services:
     env_file:
       - ./.envs/.production/.postgres
 
-  caddy:
+  nginx:
+    # image: nginx:latest
     build:
       context: .
-      dockerfile: ./compose/production/caddy/Dockerfile
-    image: secdevops_production_caddy
+      dockerfile: ./compose/production/nginx/Dockerfile
+    image: secdevops_production_nginx
+    ports:
+      # - "0.0.0.0:80:80"
+      - 80:80
     depends_on:
       - django
-    volumes:
-      - production_caddy:/root/.caddy
-    env_file:
-      - ./.envs/.production/.caddy
-    ports:
-      - "0.0.0.0:80:80"
-      - "0.0.0.0:443:443"
+    # volumes:
+      # - ./compose/production/nginx:/etc/nginx
+      # - production_nginx:/etc/nginx
+
+  # nginx:
+  #   # image: nginx:latest
+  #   build:
+  #     context: .
+  #     dockerfile: ./compose/production/nginx/Dockerfile
+  #   image: secdevops_production_nginx
+  #   depends_on:
+  #     - django
+  #   volumes:
+  #     - production_nginx:/root/.nginx
+  #     # - ./src:/src
+  #     # - ./config/nginx:/etc/nginx/conf.d
+  #     # - /static:/static
+  #   env_file:
+  #     - ./.envs/.production/.nginx
+  #   ports:
+  #     - "0.0.0.0:80:80"
+
+  # caddy:
+  #   build:
+  #     context: .
+  #     dockerfile: ./compose/production/caddy/Dockerfile
+  #   image: secdevops_production_caddy
+  #   depends_on:
+  #     - django
+  #   volumes:
+  #     - production_caddy:/root/.caddy
+  #   env_file:
+  #     - ./.envs/.production/.caddy
+  #   ports:
+  #     - "0.0.0.0:80:80"
+  #     - "0.0.0.0:443:443"
 
   redis:
     image: redis:3.2

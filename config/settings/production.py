@@ -6,7 +6,16 @@ from .base import env
 # https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 SECRET_KEY = env('DJANGO_SECRET_KEY')
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['secdevops.com'])
+
+# TODO : Change me
+ALLOWED_HOSTS = [
+    "localhost",
+    "0.0.0.0",
+    "127.0.0.1",
+    "192.168.99.100",
+    "192.168.99.101",
+]
+# ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['secdevops.com'])
 
 # DATABASES
 # ------------------------------------------------------------------------------
@@ -73,7 +82,8 @@ AWS_S3_OBJECT_PARAMETERS = {
 # ------------------------
 
 STATICFILES_STORAGE = 'config.settings.production.StaticRootS3Boto3Storage'
-STATIC_URL = f'https://{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com/static/'
+# STATIC_URL = f'https://{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com/static/'
+STATIC_URL = f'https://s3.eu-central-1.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/static/'
 
 # MEDIA
 # ------------------------------------------------------------------------------
@@ -94,7 +104,8 @@ class MediaRootS3Boto3Storage(S3Boto3Storage):
 
 # endregion
 DEFAULT_FILE_STORAGE = 'config.settings.production.MediaRootS3Boto3Storage'
-MEDIA_URL = f'https://{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com/media/'
+# MEDIA_URL = f'https://{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com/media/'
+MEDIA_URL = f'https://s3.eu-central-1.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/media/'
 
 # TEMPLATES
 # ------------------------------------------------------------------------------

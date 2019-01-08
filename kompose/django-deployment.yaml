@@ -67,7 +67,7 @@ spec:
             configMapKeyRef:
               key: USE_DOCKER
               name: django-envs--local--django
-        image: secdevops_local_django
+        image: secdevops_production_django
         imagePullPolicy: Never
         name: django
         ports:
