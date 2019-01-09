@@ -9,7 +9,7 @@
 steps:
   # Build the pipeline container image.
   - name: 'docker/compose:1.19.0'
-    args: ['-f', 'production.yml', 'build', '-d']
+    args: ['build', '-f', 'production.yml', '-d']
   - name: 'gcr.io/cloud-builders/docker'
     args:
       - '-t'
