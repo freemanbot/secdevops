@@ -8,14 +8,13 @@
 
 steps:
   # Build the pipeline container image.
+  - name: 'docker/compose:1.19.0'
+    args: ['-f', 'production.yml', 'build', '-d']
   - name: 'gcr.io/cloud-builders/docker'
     args:
-      - 'build'
-      - '-f'
-      - 'production.yml'
       - '-t'
+      - 'secdevops-production-django:latest'
       - 'gcr.io/${PROJECT_ID}/secdevops-django-app:${COMMIT_SHA}'
-      - '.'
 
   # Retrieve and decrypt the GitHub Hub configuration. 
   - name: 'gcr.io/cloud-builders/gcloud'
