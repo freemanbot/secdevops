@@ -1,0 +1,16 @@
+{
+  "triggerTemplate": {
+    "projectId": "minikube-tutorial",
+    "repoName": "secdevops",
+    "tagName": ".*"
+  },
+  "description": "secdevops-qa-build",
+  "substitutions": {
+    "_KMS_KEYRING": "secdevops",
+    "_GITHUB_USERNAME": "freemanbot",
+    "_KMS_KEY": "github",
+    "_CLOUDSDK_COMPUTE_ZONE": "europe-west4-c",
+    "_CLOUDSDK_CONTAINER_CLUSTER": "qa"
+  },
+  "filename": "qa/cloudbuild.yaml"
+}

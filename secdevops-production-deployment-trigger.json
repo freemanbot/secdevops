@@ -1,0 +1,13 @@
+{
+  "triggerTemplate": {
+    "projectId": "minikube-tutorial",
+    "repoName": "secdevops-infrastructure-production",
+    "branchName": "master"
+  },
+  "description": "secdevops-production-deployment",
+  "substitutions": {
+    "_CLOUDSDK_COMPUTE_ZONE": "europe-west4-c",
+    "_CLOUDSDK_CONTAINER_CLUSTER": "production"
+  },
+  "filename": "cloudbuild.yaml"
+}

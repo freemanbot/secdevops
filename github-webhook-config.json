@@ -1,0 +1,13 @@
+{
+  "name": "web",
+  "active": true,
+  "events": [
+    "push"
+  ],
+
+  "config": {
+    "secret": "pipeline",
+    "url": "https://us-central1-minikube-tutorial.cloudfunctions.net/reposync",
+    "content_type": "json"
+  }
+}

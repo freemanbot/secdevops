@@ -1,0 +1,16 @@
+{
+  "triggerTemplate": {
+    "projectId": "minikube-tutorial",
+    "repoName": "secdevops",
+    "branchName": "[^(?!.*master)].*"
+  },
+  "description": "secdevops-staging-build",
+  "substitutions": {
+    "_GITHUB_USERNAME": "freemanbot",
+    "_KMS_KEY": "github",
+    "_CLOUDSDK_COMPUTE_ZONE": "europe-west4-c",
+    "_CLOUDSDK_CONTAINER_CLUSTER": "secdevops-staging",
+    "_KMS_KEYRING": "secdevops"
+  },
+  "filename": "staging/cloudbuild.yaml"
+}

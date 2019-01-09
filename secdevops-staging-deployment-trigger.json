@@ -1,0 +1,13 @@
+{
+  "triggerTemplate": {
+    "projectId": "minikube-tutorial",
+    "repoName": "secdevops-infrastructure-staging",
+    "branchName": "master"
+  },
+  "description": "secdevops-staging-deployment",
+  "substitutions": {
+    "_CLOUDSDK_CONTAINER_CLUSTER": "secdevops-staging",
+    "_CLOUDSDK_COMPUTE_ZONE": "europe-west4-c"
+  },
+  "filename": "cloudbuild.yaml"
+}
